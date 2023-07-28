@@ -10,6 +10,9 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/chandravaibhav98" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="chandravaibhav98" height="30" width="40" /></a>
+<a href="https://www.hackerrank.com/vaibhav_chandra2" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="vaibhav_chandra2" height="30" width="40" /></a>
+<a href="https://www.leetcode.com/user4278go" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="user4278go" height="30" width="40" /></a>
+<a href="https://www.hackerearth.com/@vaibhav.chandra1998" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerearth.svg" alt="@vaibhav.chandra1998" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
@@ -18,6 +21,8 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=chandravaibhav98&show_icons=true&locale=en&layout=compact" alt="chandravaibhav98" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=chandravaibhav98&show_icons=true&locale=en" alt="chandravaibhav98" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=chandravaibhav98&" alt="chandravaibhav98" /></p>
 
 
 
