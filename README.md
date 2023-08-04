@@ -31,6 +31,8 @@ chandravaibhav98/chandravaibhav98 is a ✨ special ✨ repository because its `R
 Help / Resource Documents added for personal use. 
 Please do not make any changes to this repository.
 
-# Contents
 - Project Board
   - https://github.com/users/chandravaibhav98/projects/6/views/1
+ 
+- Visit Gitpod Workspace for CDE
+  - https://gitpod.io/workspaces
