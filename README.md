@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Vaibhav Chandra</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+<h3 align="center">chandravaibhav98</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=chandravaibhav98&label=Profile%20Visits&color=0e75b6&style=plastic" alt="chandravaibhav98" /> </p>
 
