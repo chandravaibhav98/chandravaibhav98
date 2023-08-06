@@ -7,7 +7,7 @@
 
 - 🔭 I’m currently working on [Board-2023](https://github.com/users/chandravaibhav98/projects/6/views/1)
 
-- 🌱 I’m currently learning **React, Node**
+- 🌱 I’m currently learning **React, Node** and will be learning ***Electron***
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
