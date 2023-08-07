@@ -33,7 +33,7 @@ Help / Resource Documents added for personal use.
 Please do not make any changes to this repository.
 
 - Project Board
-  - https://github.com/users/chandravaibhav98/projects/6/views/1
+  - [Board-2023](https://github.com/users/chandravaibhav98/projects/6/views/1)
  
 - Visit Gitpod Workspace for CDE
   - https://gitpod.io/workspaces
