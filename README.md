@@ -30,7 +30,7 @@ chandravaibhav98/chandravaibhav98 is a ✨ special ✨ repository because its `R
 # README
 
 Help / Resource Documents added for personal use. 
-Please do not make any changes to this repository.
+Please do not make/force any changes to repo's directly
 
 - Project Board
   - [Board-2023](https://github.com/users/chandravaibhav98/projects/6/views/1)
