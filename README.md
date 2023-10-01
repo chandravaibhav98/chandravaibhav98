@@ -35,5 +35,5 @@ Please do not make/force any changes.
 - Project Board
   - [Board-2023](https://github.com/users/chandravaibhav98/projects/6/views/1)
  
-- Gitpod Workspace for CDE
+- Gitpod Workspace
   - https://gitpod.io/workspaces
