@@ -6,7 +6,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=chandravaibhav98" alt="chandravaibhav98" /></a> </p>
 
-- 🔭 I’m currently working on this [board](https://github.com/users/chandravaibhav98/projects/6/views/1)
+- 🔭 I’m currently tracking personal work on [task board - 2023](https://github.com/users/chandravaibhav98/projects/6/views/1)
 
 - 🌱 I’m currently focussed on **Development with JavaScript & Java**
 
