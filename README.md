@@ -1,5 +1,6 @@
 <h1 align="center">Hi 👋</h1>
 <h3 align="center">I'm Vaibhav</h3>
+<h6 align="center">Please do reach out to me if I can help you in anyway</h6>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=chandravaibhav98&label=Profile%20Visits&color=0e75b6&style=plastic" alt="chandravaibhav98" /> </p>
 
@@ -7,7 +8,7 @@
 
 - 🔭 I’m currently working on this [board](https://github.com/users/chandravaibhav98/projects/6/views/1)
 
-- 🌱 I’m currently learning **React, Node & Electron**
+- 🌱 I’m currently focussed on **Development with JavaScript & Java**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
