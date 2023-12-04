@@ -8,7 +8,7 @@
 
 - 🔭 I’m currently tracking personal work on [task board - 2023](https://github.com/users/chandravaibhav98/projects/6/views/1)
 
-- 🌱 I’m currently focussed on **Development with JavaScript & Java**
+- 🌱 I’m currently focussed on **JavaScript, Java & Python**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
