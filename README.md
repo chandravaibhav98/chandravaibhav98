@@ -1,6 +1,5 @@
-<h1 align="center">Hi 👋</h1>
-<h3 align="center">I'm Vaibhav</h3>
-<h6 align="center">Please do reach out to me if I can help you</h6>
+<h1 align="center">Hi, I'm Vaibhav Chandra👋</h1>
+<h6 align="center">chandravaibhav98 | GenuineCow | BlackTeen-Monkey</h6>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=chandravaibhav98&label=Profile%20Visits&color=0e75b6&style=plastic" alt="chandravaibhav98" /> </p>
 
