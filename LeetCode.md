@@ -7,3 +7,6 @@
 - Longest Palindromic Substring : https://leetcode.com/problems/longest-palindromic-substring/submissions
 - Zigzag Conversion : https://leetcode.com/problems/zigzag-conversion//submissions
 - Reverse Integer : https://leetcode.com/problems/reverse-integer/submissions
+
+# LeetCode 75 #
+- Merge Strings Alternately : https://leetcode.com/studyplan/leetcode-75/
