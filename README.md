@@ -33,10 +33,8 @@ chandravaibhav98/chandravaibhav98 is a ✨ special ✨ repository because its `R
 Help / Resource Documents added for personal use. 
 Please do not make/force any changes.
 
-- Project Board
-  - [Board-2023](https://github.com/users/chandravaibhav98/projects/6/views/1)
+- [Project Board](https://github.com/users/chandravaibhav98/projects/6/views/1)
  
-- Gitpod Workspace
-  - https://gitpod.io/workspaces
+- [Gitpod Workspace](https://gitpod.io/workspaces)
  
 - [Markdown Cheatsheet](https://github.com/chandravaibhav98/chandravaibhav98/blob/main/Markdown-Cheatsheet.md)
