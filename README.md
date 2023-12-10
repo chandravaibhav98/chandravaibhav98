@@ -28,13 +28,13 @@
 chandravaibhav98/chandravaibhav98 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 --->
 
-# README
-
-Help / Resource Documents added for personal use. 
-Please do not make/force any changes.
+## Resource ##
 
 - [Project Board](https://github.com/users/chandravaibhav98/projects/6/views/1)
  
 - [Gitpod Workspace](https://gitpod.io/workspaces)
  
 - [Markdown Cheatsheet](https://github.com/chandravaibhav98/chandravaibhav98/blob/main/Markdown-Cheatsheet.md)
+
+Help / Resource Documents added for personal use. 
+Please do not make/force any changes.
