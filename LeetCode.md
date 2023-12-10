@@ -1,4 +1,4 @@
-# CP Problem List #
+# CP #
 
 ## LeetCode ##
 
