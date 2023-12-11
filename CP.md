@@ -33,3 +33,20 @@
 - [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/submissions)
 - [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones-iii/submissions/)
 - [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/submissions/)
+
+### Prefix Sum ###
+- [Find the Highest Altitue](https://leetcode.com/problems/find-the-highest-altitude/submissions/)
+- [Find the Pivot Index](https://leetcode.com/problems/find-pivot-index/submissions/)
+
+### Hashmap / Set ###
+- [Find the difference of Two Arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/submissions/)
+- [Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/submissions/)
+- [Determine if two strings are close](https://leetcode.com/problems/determine-if-two-strings-are-close/submissions/)
+- [Equal Row and Columns](https://leetcode.com/problems/equal-row-and-column-pairs/submissions/)
+
+  ### Stack ###
+  - [Removing Stars from a String](https://leetcode.com/problems/removing-stars-from-a-string/submissions/)
+  - [Decode Strings](https://leetcode.com/problems/decode-string/submissions/)
+ 
+  ### Queue ###
+  -[]()
