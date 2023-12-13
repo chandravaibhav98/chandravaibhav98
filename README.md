@@ -1,5 +1,5 @@
 <h1 align="center">Hi👋</h1>
-<h6 align="center">Vaibhav Chandra : chandravaibhav98 | GenuineCow | BlackTeen-Monkey</h6>
+<h6 align="center">Vaibhav Chandra / chandravaibhav | chandravaibhav98 | GenuineCow | BlackTeen-Monkey</h6>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=chandravaibhav98&label=Profile%20Visits&color=0e75b6&style=plastic" alt="chandravaibhav98" /> </p>
 
