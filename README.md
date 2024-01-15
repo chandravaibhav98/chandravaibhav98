@@ -35,5 +35,3 @@ chandravaibhav98/chandravaibhav98 is a ✨ special ✨ repository because its `R
  
 - [Markdown Cheatsheet](https://github.com/chandravaibhav98/chandravaibhav98/blob/main/Markdown-Cheatsheet.md)
 
-Help / Resource Documents added for personal use. 
-Please don't commit any changes.
