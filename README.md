@@ -28,8 +28,6 @@ chandravaibhav98/chandravaibhav98 is a ✨ special ✨ repository because its `R
 --->
 
 ## Resource ##
-
-- [Project Board](https://github.com/users/chandravaibhav98/projects/6/views/1)
  
 - [Gitpod Workspace](https://gitpod.io/workspaces)
  
