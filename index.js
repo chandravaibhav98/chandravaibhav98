@@ -4,14 +4,15 @@ function runScript() {
 	console.log("JS");
 	$("body").toggleClass("darkMode");
 	let mode = false;
-	$(".bi bi-github").attr("href", "https://www.github.com");
-	$(".bi bi-twitter-x").attr("href", "https://twitter.com/VaibhavCha56395");
-	$("bi bi-discord").attr("href", "https://www.github.com");
-	$("bi bi-google").attr("href", "https://www.github.com");
-	$("bi bi-steam").attr("href", "https://www.github.com");
-	$("bi bi-playstation").attr("href", "https://www.github.com");
-	$("bi bi-xbox").attr("href", "https://www.github.com");
-	$("bi bi-linkedin").attr("href", "https://www.github.com");
+	$(".link-github").attr("href", "https://www.github.com");
+	$(".link-twitter-x").attr("href", "https://twitter.com/VaibhavCha56395");
+	$(".link-instagram").attr("href", "https://www.github.com");
+	$(".link-discord").attr("href", "https://www.github.com");
+	$(".link-google").attr("href", "https://www.github.com");
+	$(".link-steam").attr("href", "https://www.github.com");
+	$(".link-playstation").attr("href", "https://www.github.com");
+	$(".link-xbox").attr("href", "https://www.github.com");
+	$(".link-linkedin").attr("href", "https://www.github.com");
 	console.info("jQuery");
 	$(".mode").click(function () {
 		console.log("Switch Mode");
