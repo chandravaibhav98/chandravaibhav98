@@ -1,3 +1,5 @@
+# No Template error #
+
 npm uninstall -g create-react-app
 
 yarn global remove create-react-app
