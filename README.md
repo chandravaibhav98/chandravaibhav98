@@ -16,7 +16,5 @@ chandravaibhav98/chandravaibhav98 is a ✨ special ✨ repository because its `R
 
 ## Resource ##
  
-- [Gitpod Workspace](https://gitpod.io/workspaces)
- 
 - [Markdown Cheatsheet](https://github.com/chandravaibhav98/chandravaibhav98/blob/main/Markdown-Cheatsheet.md)
 
