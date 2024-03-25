@@ -11,7 +11,6 @@
 chandravaibhav98/chandravaibhav98 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 --->
 
-## Resource ##
 
 - [My Projects](https://github.com/chandravaibhav98/chandravaibhav98/blob/main/Projects.md)
 - [Markdown](https://github.com/chandravaibhav98/chandravaibhav98/blob/main/Markdown-Cheatsheet.md)
