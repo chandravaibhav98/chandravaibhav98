@@ -5,11 +5,11 @@ html{
     text-align: center;
 }
 body.darkMode {
-    background-color: grey;
-    color:white;
+    background-color: blanchedalmond;
+    color:black;
 }
 body.lightMode {
-    background-color: whitesmoke;
+    background-color: white;
     color: black;
 }
 /* svg {
