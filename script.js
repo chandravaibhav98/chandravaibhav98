@@ -1,7 +1,7 @@
 const skills = [
-	"• Software Development & Testing • Web Application Development • End to End Testing • Troubleshooting • Documentation",
-	// "• Test-case Design & Execution • Test Management tools • Test Automation • Bug Tracking & Reporting • AGILE",
-	"• Front-end Development • Back-end Development • Database Management • Data Analytics & Data Science",
+	"• Front-end Development • Back-end Development • Database Management • Data Science",
+	"• Software Development & Testing • Web Application Development • Troubleshooting • Documentation",
+	"• Workflow Design • Test-case Design • Test Automation • Bug Tracking & Reporting • AGILE",
 ];
 const technicalSkills = [
 	{
