@@ -85,9 +85,14 @@ const projects = [
 function populateSkills() {
 	const skillsList = document.getElementById("skills-list");
 	skills.forEach((skill) => {
-		const li = document.createElement("li");
-		li.textContent = skill;
-		skillsList.appendChild(li);
+		// const li = document.createElement("li");
+		// li.textContent = skill;
+		// skillsList.appendChild(li);
+		const div = document.createElement("div");
+		div.innerHTML = `
+            <p>${skill}</p>
+        `;
+		skillsList.appendChild(div);
 	});
 }
 function populateTechnicalSkills() {
@@ -127,7 +132,7 @@ function populateProjects() {
 	});
 }
 
-// populateSkills();
+populateSkills();
 populateTechnicalSkills();
 populateKeyProjects();
 populateProjects();
@@ -146,18 +151,14 @@ function displayCurrentTime() {
 	const minutes = currentTime.getMinutes();
 	const seconds = currentTime.getSeconds();
 
-	// Format the time to ensure double digits
 	const formattedHours = hours < 10 ? "0" + hours : hours;
 	const formattedMinutes = minutes < 10 ? "0" + minutes : minutes;
 	const formattedSeconds = seconds < 10 ? "0" + seconds : seconds;
 
 	const timeString = formattedHours + ":" + formattedMinutes + ":" + formattedSeconds;
-	// currentTimeElement.textContent = "Current Time: " + timeString;
 	currentTimeElement.innerHTML = `<p>&copy;2024: ${timeString}</p>`;
 }
 
-// Call the function initially to display the time immediately
 displayCurrentTime();
 
-// Update the time every second
 setInterval(displayCurrentTime, 1000);
