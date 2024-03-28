@@ -92,7 +92,7 @@ function populateProjects() {
 	});
 }
 
-populateSkills();
+// populateSkills();
 populateTechnicalSkills();
 populateKeyProjects();
 populateProjects();
