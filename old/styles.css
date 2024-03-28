@@ -1,0 +1,18 @@
+html{
+    border: 3px blueviolet;
+}
+.main {
+    text-align: center;
+}
+body.darkMode {
+    background-color: blanchedalmond;
+    color:black;
+}
+body.lightMode {
+    background-color: white;
+    color: black;
+}
+/* svg {
+    width: 100px;
+    height: 100px;
+} */

@@ -4,11 +4,11 @@ html{
 .main {
     text-align: center;
 }
-body.darkMode {
+.dark-mode {
     background-color: blanchedalmond;
     color:black;
 }
-body.lightMode {
+.light-mode {
     background-color: white;
     color: black;
 }
@@ -16,3 +16,18 @@ body.lightMode {
     width: 100px;
     height: 100px;
 } */
+
+body {
+    text-align: center;
+    transition: background-color 0.4s ease;
+}
+
+.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.dark-mode {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
