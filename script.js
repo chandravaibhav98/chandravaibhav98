@@ -69,7 +69,6 @@ function populateTechnicalSkills() {
 		skillsList.appendChild(li);
 	});
 }
-
 function populateKeyProjects() {
 	const projectsList = document.getElementById("key-projects-list");
 	keyProjects.forEach((project) => {
