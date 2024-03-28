@@ -1,17 +1,8 @@
-// Sample data for skills and projects
 const skills = [
 	"• Software Development & Testing • Web Application Development • End to End Testing • Troubleshooting • Documentation",
 	// "• Test-case Design & Execution • Test Management tools • Test Automation • Bug Tracking & Reporting • AGILE",
 	"• Front-end Development • Back-end Development • Database Management • Data Analytics & Data Science",
 ];
-// const technicalSkills = [
-// 	"Programming / Scripting Languages: JavaScript / TypeScript, Java, Python, C++, R",
-// 	"Web / Application Design: HTML5, CSS, Bootstrap, JavaScript / TypeScript, Embedded-JavaScript, React.JS, Tkinter, Electron.JS",
-// 	"Databases / Query Languages: SQLite, MySQL, MS SQL Server, PostgreSQL, MongoDB, Redis, GraphQL",
-// 	"Web / Application Server: Node.JS, Express.JS, Flask, Django, Spring Boot, Spring Core, Spring REST, Spring MVC, Spring Security, Spring Data JPA, Spring Hibernate",
-// 	"Automation Tools: Cucumber, Jest, Cypress, pyTest, Power Automate",
-// 	"Tools: Git, GitHub, Postman, Docker, Kubernetes, Jira, Confluence, Trello, Microsoft Office, VMware, Linux",
-// ];
 const technicalSkills = [
 	{
 		name: "Programming / Scripting Languages",
@@ -85,9 +76,6 @@ const projects = [
 function populateSkills() {
 	const skillsList = document.getElementById("skills-list");
 	skills.forEach((skill) => {
-		// const li = document.createElement("li");
-		// li.textContent = skill;
-		// skillsList.appendChild(li);
 		const div = document.createElement("div");
 		div.innerHTML = `
             <p>${skill}</p>
@@ -98,9 +86,6 @@ function populateSkills() {
 function populateTechnicalSkills() {
 	const skillsList = document.getElementById("technical-skills-list");
 	technicalSkills.forEach((skill) => {
-		// const li = document.createElement("li");
-		// li.textContent = skill;
-		// skillsList.appendChild(li);
 		const div = document.createElement("div");
 		div.innerHTML = `
             <h5>${skill.name}</h5>
@@ -158,7 +143,6 @@ function displayCurrentTime() {
 	const timeString = formattedHours + ":" + formattedMinutes + ":" + formattedSeconds;
 	currentTimeElement.innerHTML = `<p>&copy;2024: ${timeString}</p>`;
 }
-
 displayCurrentTime();
 
 setInterval(displayCurrentTime, 1000);
