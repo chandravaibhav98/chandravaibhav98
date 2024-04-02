@@ -29,7 +29,7 @@ const technicalSkills = [
 	{
 		name: "Tools",
 		description:
-			"Git, GitHub, Postman, Docker, Kubernetes, Jira, Confluence, Trello, Microsoft Office, VMware, Linux",
+			"Git, GitHub, Postman, Docker, Kubernetes, Linux",
 	},
 ];
 const keyProjects = [
