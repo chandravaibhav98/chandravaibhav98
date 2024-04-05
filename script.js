@@ -60,12 +60,12 @@ const projects = [
 			"Password Protected File Sharing using Node.JS and MongoDB\n User Interface implemented using Embedded-JavaScript",
 	},
 	{
-		name: "Stock Watch App with React.JS",
+		name: "Stock Watch Web Application with React.JS",
 		description:
 			"Developed a React application with an existing API to display various Stocks & Details",
 	},
 	{
-		name: "Recipes with React.JS",
+		name: "Recipes Web Application  with React.JS",
 		description:
 			"Developed a React application to search Recipes with an existing online API\n Set Recent Searches to Local Storage",
 	},
