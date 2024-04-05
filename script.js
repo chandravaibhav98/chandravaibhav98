@@ -28,8 +28,7 @@ const technicalSkills = [
 	},
 	{
 		name: "Tools",
-		description:
-			"Git, GitHub, Postman, Docker, Kubernetes, Linux",
+		description: "Git, GitHub, Postman, Docker, Kubernetes, Linux",
 	},
 ];
 const keyProjects = [
@@ -51,7 +50,7 @@ const keyProjects = [
 ];
 const projects = [
 	{
-		name: "GitHub authentication with React.JS & Node.JS",
+		name: "GitHub Authentication with React.JS & Node.JS",
 		description:
 			"User Login redirects to GitHub login and request access token for the user from GitHub API\n On successful login, the user has an option to import user data from GitHub to the web application",
 	},
@@ -59,6 +58,20 @@ const projects = [
 		name: "File Sharing Web Application with Node.JS and MongoDB",
 		description:
 			"Password Protected File Sharing using Node.JS and MongoDB\n User Interface implemented using Embedded-JavaScript",
+	},
+	{
+		name: "Stock Watch App with React.JS",
+		description:
+			"Developed a React application with an existing API to display various Stocks & Details",
+	},
+	{
+		name: "Recipes with React.JS",
+		description:
+			"Developed a React application to search Recipes with an existing online API\n Set Recent Searches to Local Storage",
+	},
+	{
+		name: "Team Member Allocation Web Application with React.JS",
+		description: "Developed a React application to allocate Team members with useState",
 	},
 	{
 		name: "Customer-Relationship-Management application with Python/Django and MySQL",
@@ -70,7 +83,7 @@ const projects = [
 		description:
 			"Calculator Application which consists of 10 digits & 4 basic mathematical operations\n To Do Application with Create, Edit, Delete item functionalities\n Product Page with a Countdown Timer which displays Days, Hours, Minutes, Seconds\n",
 	},
-	// { name: "Project 2", description: "Description of Project 2" },
+	// { name: "Project", description: "Description" },
 ];
 // ____________________________
 function populateSkills() {
