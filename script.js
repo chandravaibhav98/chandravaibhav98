@@ -79,7 +79,7 @@ const projects = [
 			"Customer Relationship Management application with Register, Login, Add Records, View Records, Update Records, Delete Records functionalities",
 	},
 	{
-		name: "HTML, CSS with Vanilla JavaScript",
+		name: "HTML, CSS & JavaScript",
 		description:
 			"Calculator Application which consists of 10 digits & 4 basic mathematical operations\n To Do Application with Create, Edit, Delete item functionalities\n Product Page with a Countdown Timer which displays Days, Hours, Minutes, Seconds\n",
 	},

@@ -1,7 +1,5 @@
 <h1 align="center">Hi👋</h1>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=chandravaibhav98&label=Profile%20Visits&color=0e75b6&style=plastic" alt="chandravaibhav98" /> </p>
-
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=chandravaibhav98" alt="chandravaibhav98" /></a> </p>
 
 <h3 align="left">Languages and Tools</h3>
