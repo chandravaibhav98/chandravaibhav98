@@ -11,7 +11,7 @@ chandravaibhav98/chandravaibhav98 is a ✨ special ✨ repository because its `R
 
 <!-- - [Projects](https://github.com/chandravaibhav98/chandravaibhav98/blob/main/Projects.md) -->
 
-### Reference ###
+<h3 align="left">Reference</h3>
 
 - [Markdown](https://github.com/chandravaibhav98/chandravaibhav98/blob/main/Markdown-Cheatsheet.md)
 - [Git](https://education.github.com/git-cheat-sheet-education.pdf)
