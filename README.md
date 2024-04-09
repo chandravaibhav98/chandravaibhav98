@@ -17,4 +17,4 @@ chandravaibhav98/chandravaibhav98 is a ✨ special ✨ repository because its `R
 - [Git](https://education.github.com/git-cheat-sheet-education.pdf)
 - [Docker](https://docs.docker.com/get-started/docker_cheatsheet.pdf)
 - [Kubernetes](https://kubernetes.io/docs/reference/kubectl/generated/)
-- [Linux](https://www.geeksforgeeks.org/linux-commands-cheat-sheet/) **/** [PowerShell](https://github.com/ab14jain/PowerShell)
+- [Linux](https://www.geeksforgeeks.org/linux-commands-cheat-sheet/) / [PowerShell](https://github.com/ab14jain/PowerShell)
