@@ -62,7 +62,6 @@
 <img src="https://raw.githubusercontent.com/teamedwardforever/Readme-Generator/71f25dd8b98329b168142a6b782a107b75eab178/svg/Skills/Devops/google_cloud-icon.svg" alt="Google Cloud" width="40" height="40"/>
 </p>
 
-<h3 align="left">Stars</h3>
 <p><img align="center" height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=chandravaibhav98&theme=javascript-dark" alt="chandravaibhav98" /></p>
 </div>
 
