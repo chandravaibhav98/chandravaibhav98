@@ -50,6 +50,11 @@ const keyProjects = [
 ];
 const projects = [
 	{
+		name: "Microservices based Full Stack Blog Web Application in JavaScript with React.JS, Node.JS, MongoDB & Kubernetes",
+		description:
+			"Implemented an Event-Bus in JavaScript to enable Event-Driven Communication between Services\nDeveloped Client Application using React.JS to create Posts and Comments\nConstructed Kubernetes Deployments for Services and Used Ingress-Nginx for Routing to Services based on hostname & paths\n",
+	},
+	{
 		name: "GitHub Authentication with React.JS & Node.JS",
 		description:
 			"User Login redirects to GitHub login and request access token for the user from GitHub API\n On successful login, the user has an option to import user data from GitHub to the web application",
@@ -145,16 +150,20 @@ toggleBtn.addEventListener("click", function () {
 function displayCurrentTime() {
 	const currentTimeElement = document.getElementById("current-time");
 	const currentTime = new Date();
+	const year = currentTime.getFullYear();
+	const month = currentTime.getMonth() + 1; // Months are zero-based, so add 1
+	const day = currentTime.getDate();
 	const hours = currentTime.getHours();
 	const minutes = currentTime.getMinutes();
 	const seconds = currentTime.getSeconds();
 
+	const formattedDate = `${day < 10 ? "0" : ""}${day}/${month < 10 ? "0" : ""}${month}/${year}`;
 	const formattedHours = hours < 10 ? "0" + hours : hours;
 	const formattedMinutes = minutes < 10 ? "0" + minutes : minutes;
 	const formattedSeconds = seconds < 10 ? "0" + seconds : seconds;
 
 	const timeString = formattedHours + ":" + formattedMinutes + ":" + formattedSeconds;
-	currentTimeElement.innerHTML = `<p>&copy;2024: ${timeString}</p>`;
+	currentTimeElement.innerHTML = `<div><p>&copychandravaibhav98</p><p>${formattedDate}: ${timeString}</p></div>`;
 }
 displayCurrentTime();
 
