@@ -135,11 +135,6 @@ function populateProjects() {
 	});
 }
 
-populateSkills();
-populateTechnicalSkills();
-populateKeyProjects();
-populateProjects();
-
 const toggleBtn = document.getElementById("toggleBtn");
 const body = document.body;
 
@@ -165,6 +160,11 @@ function displayCurrentTime() {
 	const timeString = formattedHours + ":" + formattedMinutes + ":" + formattedSeconds;
 	currentTimeElement.innerHTML = `<div><p>&copychandravaibhav98</p><p>${formattedDate}: ${timeString}</p></div>`;
 }
+
+populateSkills();
+populateTechnicalSkills();
+populateKeyProjects();
+populateProjects();
 displayCurrentTime();
 
 setInterval(displayCurrentTime, 1000);
