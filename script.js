@@ -90,7 +90,7 @@ const projects = [
 	},
 	// { name: "Project", description: "Description" },
 ];
-// ____________________________
+// ----------------------------
 function populateSkills() {
 	const skillsList = document.getElementById("skills-list");
 	skills.forEach((skill) => {
