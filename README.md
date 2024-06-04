@@ -7,7 +7,7 @@
 
 <p><img align="center" height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=chandravaibhav98&theme=javascript-dark" alt="chandravaibhav98" /></p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=chandravaibhav98&show_icons=true&theme=dark&locale=en&layout=compact" alt="chandravaibhav98" /></p>
+<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=chandravaibhav98&show_icons=true&theme=dark&locale=en&layout=compact" alt="chandravaibhav98" /></p>
 
 </div>
 
@@ -17,7 +17,7 @@ chandravaibhav98/chandravaibhav98 is a ✨ special ✨ repository because its `R
 
 <!-- - [Projects](https://github.com/chandravaibhav98/chandravaibhav98/blob/main/Projects.md) -->
 
-<h3 align="left">Reference</h3>
+<h3 align="center">Reference</h3>
 
 - [Markdown](https://github.com/chandravaibhav98/chandravaibhav98/blob/main/Markdown-Cheatsheet.md)
 - [Git](https://education.github.com/git-cheat-sheet-education.pdf)
