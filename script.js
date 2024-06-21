@@ -88,6 +88,11 @@ const projects = [
 		description:
 			"Calculator Application which consists of 10 digits & 4 basic mathematical operations\n To Do Application with Create, Edit, Delete item functionalities\n Product Page with a Countdown Timer which displays Days, Hours, Minutes, Seconds\n",
 	},
+	{
+		name: "MVC based Student Management System with JSP, Servlets & MySQL",
+		description:
+			"Simple Student Management System with CRUD operations per Student\nDesigned JSP with JSTL : Core Tags\nConfigured Connection-Pool for JDBC connections",
+	},
 	// { name: "Project", description: "Description" },
 ];
 // ----------------------------
