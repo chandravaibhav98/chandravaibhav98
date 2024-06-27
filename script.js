@@ -55,6 +55,11 @@ const projects = [
 			"Implemented an Event-Bus in JavaScript to enable Event-Driven Communication between Services\nDeveloped Client Application using React.JS to create Posts and Comments\nConstructed Kubernetes Deployments for Services and Used Ingress-Nginx for Routing to Services based on hostname & paths\n",
 	},
 	{
+		name: "MVC based CRUD Application for Student Management with JSP, Servlets & MySQL",
+		description:
+			"Simple Student Management System with CRUD operations per Student\nDesigned JSP with JSTL : Core Tags\nConfigured Connection-Pool for JDBC connections",
+	},
+	{
 		name: "GitHub Authentication with React.JS & Node.JS",
 		description:
 			"User Login redirects to GitHub login and request access token for the user from GitHub API\n On successful login, the user has an option to import user data from GitHub to the web application",
@@ -87,11 +92,6 @@ const projects = [
 		name: "HTML, CSS & JavaScript",
 		description:
 			"Calculator Application which consists of 10 digits & 4 basic mathematical operations\n To Do Application with Create, Edit, Delete item functionalities\n Product Page with a Countdown Timer which displays Days, Hours, Minutes, Seconds\n",
-	},
-	{
-		name: "MVC based Student Management System with JSP, Servlets & MySQL",
-		description:
-			"Simple Student Management System with CRUD operations per Student\nDesigned JSP with JSTL : Core Tags\nConfigured Connection-Pool for JDBC connections",
 	},
 	// { name: "Project", description: "Description" },
 ];
