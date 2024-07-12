@@ -55,7 +55,7 @@ const projects = [
 			"Implemented an Event-Bus in JavaScript to enable Event-Driven Communication between Services\nDeveloped Client Application using React.JS to create Posts and Comments\nConstructed Kubernetes Deployments for Services and Used Ingress-Nginx for Routing to Services based on hostname & paths\n",
 	},
 	{
-		name: "MVC based CRUD Application for Student Management with JSP, Servlets & MySQL",
+		name: "MVC Application for Student Management with JSP, Servlets & MySQL",
 		description:
 			"Simple Student Management System with CRUD operations per Student\nDesigned JSP with JSTL : Core Tags\nConfigured Connection-Pool for JDBC connections",
 	},
