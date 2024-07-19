@@ -26,6 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			description:
 				"Developed micro-frontend sub apps using Webpack to enable development for different sub-apps using different front-end frameworks\n Implemented CI/CD pipelines to build & deploy sub-apps to Amazon Web Services\n Configured and Deployed production-build to AWS using S3 & CloudFront\n",
 		},
+		// { name: "Project x", language: "Python", description: "description" },
 	];
 
 	const projects = [
@@ -82,7 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			description:
 				"Calculator Application which consists of 10 digits & 4 basic mathematical operations\n To Do Application with Create, Edit, Delete item functionalities\n Product Page with a Countdown Timer which displays Days, Hours, Minutes, Seconds\n",
 		},
-		// { name: "Project", description: "Description" },
+		// { name: "Project x", language: "Python", description: "description" },
 	];
 
 	const keyProjectsContainer = document.getElementById("key-projects");
@@ -90,11 +91,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	function insertKeyProjects() {
 		keyProjects.forEach((project) => {
-			const projectDiv = document.createElement("div");
-			projectDiv.className = "project";
-			projectDiv.setAttribute("data-language", project.language);
-			projectDiv.textContent = `${project.name} (${project.language})`;
-			keyProjectsContainer.appendChild(projectDiv);
+			const keyProjectDiv = document.createElement("div");
+			keyProjectDiv.className = "project";
+			keyProjectDiv.setAttribute("data-language", project.language);
+			keyProjectDiv.innerHTML = `
+            <h4>${project.name}</h4>
+            <p>${project.description.replace(/\n/g, "<br>")}</p>
+        `;
+			keyProjectsContainer.appendChild(keyProjectDiv);
 		});
 	}
 
@@ -103,12 +107,16 @@ document.addEventListener("DOMContentLoaded", () => {
 			const projectDiv = document.createElement("div");
 			projectDiv.className = "project";
 			projectDiv.setAttribute("data-language", project.language);
-			projectDiv.textContent = `${project.name} (${project.language})`;
+			projectDiv.innerHTML = `
+            <h4>${project.name}</h4>
+            <p>${project.description.replace(/\n/g, "<br>")}</p>
+        `;
 			projectsContainer.appendChild(projectDiv);
 		});
 	}
 
-	function filterProjects(language) {
+	// function filterProjects(language) {
+	window.filterProjects = function (language) {
 		const projects = document.querySelectorAll(".project");
 
 		projects.forEach((project) => {
@@ -118,7 +126,7 @@ document.addEventListener("DOMContentLoaded", () => {
 				project.style.display = "none";
 			}
 		});
-	}
+	};
 
 	function populateSkills() {
 		const skillsList = document.getElementById("skills-list");

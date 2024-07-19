@@ -19,3 +19,8 @@ hr {
     padding: 0;
     border-color: inherit;
 }
+
+#tools {
+    display: flex;
+        justify-content: space-evenly;
+}
