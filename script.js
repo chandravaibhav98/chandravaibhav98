@@ -1,12 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-	// const keyProjects = [
-	// 	{ name: "Project 1", language: "JavaScript" },
-	// 	{ name: "Project 2", language: "Python" },
-	// 	{ name: "Project 3", language: "Java" },
-	// 	{ name: "Project 4", language: "JavaScript" },
-	// 	{ name: "Project 5", language: "Python" },
-	// ];
-
 	const keyProjects = [
 		{
 			name: "Microservices based Full Stack Ticketing Web Application in TypeScript with Next.JS, Node.JS, MongoDB, Redis & Kubernetes",
@@ -28,7 +20,6 @@ document.addEventListener("DOMContentLoaded", () => {
 		},
 		// { name: "Project x", language: "Python", description: "description" },
 	];
-
 	const projects = [
 		{
 			name: "Microservices based Full Stack Blog Web Application in JavaScript with React.JS, Node.JS, MongoDB & Kubernetes",
@@ -37,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
 				"Implemented an Event-Bus in JavaScript to enable Event-Driven Communication between Services\nDeveloped Client Application using React.JS to create Posts and Comments\nConstructed Kubernetes Deployments for Services and Used Ingress-Nginx for Routing to Services based on hostname & paths\n",
 		},
 		{
-			name: "MVC Application for Student Management with JSP, Servlets & MySQL",
+			name: "MVC Web Application for Student Management with JSP, Servlets & MySQL",
 			language: "Java",
 			description:
 				"Simple Student Management System with CRUD operations per Student\nDesigned JSP with JSTL : Core Tags\nConfigured Connection-Pool for JDBC connections",
@@ -125,7 +116,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			description: "Git, GitHub, Postman, Docker, Kubernetes, Linux",
 		},
 	];
-
+	// ----------------------------
 	const keyProjectsContainer = document.getElementById("key-projects");
 	const projectsContainer = document.getElementById("projects");
 	const skillsList = document.getElementById("skills-list");
@@ -159,20 +150,22 @@ document.addEventListener("DOMContentLoaded", () => {
 		return card;
 	}
 
-	// Function to load projects
 	function loadData() {
 		keyProjects.forEach((project) => {
 			const card = createCard(project);
 			keyProjectsContainer.appendChild(card);
 		});
+
 		projects.forEach((project) => {
 			const card = createCard(project);
 			projectsContainer.appendChild(card);
 		});
+
 		skills.forEach((skill) => {
 			const card = createCard(skill);
 			skillsList.appendChild(card);
 		});
+
 		technicalSkills.forEach((technicalSkill) => {
 			const card = createCard(technicalSkill);
 			technicalSkillsList.appendChild(card);
