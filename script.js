@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		card.className = "card";
 
 		const title = document.createElement("h4");
-		title.textContent = project.title;
+		title.textContent = project.name;
 		card.appendChild(title);
 
 		const description = document.createElement("p");
@@ -116,33 +116,6 @@ document.addEventListener("DOMContentLoaded", () => {
 		});
 	}
 
-	// function insertKeyProjects() {
-	// 	keyProjects.forEach((project) => {
-	// 		const keyProjectDiv = document.createElement("div");
-	// 		keyProjectDiv.className = "project";
-	// 		keyProjectDiv.setAttribute("data-language", project.language);
-	// 		keyProjectDiv.innerHTML = `
-	//         <h4>${project.name}</h4>
-	//         <p>${project.description.replace(/\n/g, "<br>")}</p>
-	//     `;
-	// 		keyProjectsContainer.appendChild(keyProjectDiv);
-	// 	});
-	// }
-
-	// function insertProjects() {
-	// 	projects.forEach((project) => {
-	// 		const projectDiv = document.createElement("div");
-	// 		projectDiv.className = "project";
-	// 		projectDiv.setAttribute("data-language", project.language);
-	// 		projectDiv.innerHTML = `
-	//         <h4>${project.name}</h4>
-	//         <p>${project.description.replace(/\n/g, "<br>")}</p>
-	//     `;
-	// 		projectsContainer.appendChild(projectDiv);
-	// 	});
-	// }
-
-	// function filterProjects(language) {
 	window.filterProjects = function (language) {
 		const projects = document.querySelectorAll(".project");
 
@@ -177,9 +150,6 @@ document.addEventListener("DOMContentLoaded", () => {
 		});
 	}
 
-	// Insert projects on page load
-	// insertKeyProjects();
-	// insertProjects();
 	loadProjects();
 	populateSkills();
 	populateTechnicalSkills();
