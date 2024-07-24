@@ -85,27 +85,82 @@ document.addEventListener("DOMContentLoaded", () => {
 		},
 		// { name: "Project x", language: "Python", description: "description" },
 	];
+	const skills = [
+		{
+			name: "Software",
+			description:
+				"Front-end Development\nBack-end Development\nDatabase Management\nData Analytics & Science\nDocumentation\n",
+		},
+		{
+			name: "IT",
+			description:
+				"Workflow Design\nTest-case Design\nTest Automation\nTroubleshooting\nBug Tracking\nAGILE\n",
+		},
+	];
+	const technicalSkills = [
+		{
+			name: "Programming / Scripting Languages",
+			description: "JavaScript / TypeScript, Java, Python, C++, R",
+		},
+		{
+			name: "Web / Application Design",
+			description:
+				"HTML5, CSS, Bootstrap, JavaScript / TypeScript, Embedded-JavaScript, React.JS, Tkinter, Electron.JS",
+		},
+		{
+			name: "Databases / Query Languages",
+			description: "SQLite, MySQL, MS SQL Server, PostgreSQL, MongoDB, Redis, GraphQL",
+		},
+		{
+			name: "Web / Application Server",
+			description:
+				"Node.JS, Express.JS, Flask, Django, Spring Boot, Spring Core, Spring REST, Spring MVC, Spring Security, Spring Data JPA, Spring Hibernate",
+		},
+		{
+			name: "Automation Tools",
+			description: "Cucumber, Jest, Cypress, pyTest, Power Automate",
+		},
+		{
+			name: "Tools",
+			description: "Git, GitHub, Postman, Docker, Kubernetes, Linux",
+		},
+	];
 
 	const keyProjectsContainer = document.getElementById("key-projects");
 	const projectsContainer = document.getElementById("projects");
+	const skillsList = document.getElementById("skills-list");
+	const technicalSkillsList = document.getElementById("technical-skills-list");
 
-	function createCard(project) {
+	function createCard(item) {
 		const card = document.createElement("div");
 		card.className = "card";
+		if (item.language) {
+			card.setAttribute("data-language", item.language);
+		} else {
+			card.setAttribute("data-language", "");
+		}
 
 		const title = document.createElement("h4");
-		title.textContent = project.name;
+		title.textContent = item.name;
 		card.appendChild(title);
 
 		const description = document.createElement("p");
-		description.textContent = project.description;
+		// description.textContent = item.description;
+		const lines = item.description.split("\n"); // Split description into lines
+		lines.forEach((line) => {
+			if (line) {
+				const listItem = document.createElement("li");
+				listItem.textContent = line;
+				description.appendChild(listItem);
+			}
+		});
 		card.appendChild(description);
 
 		return card;
 	}
 
 	// Function to load projects
-	function loadProjects() {
+	function loadData() {
 		keyProjects.forEach((project) => {
 			const card = createCard(project);
 			keyProjectsContainer.appendChild(card);
@@ -114,80 +169,32 @@ document.addEventListener("DOMContentLoaded", () => {
 			const card = createCard(project);
 			projectsContainer.appendChild(card);
 		});
+		skills.forEach((skill) => {
+			const card = createCard(skill);
+			skillsList.appendChild(card);
+		});
+		technicalSkills.forEach((technicalSkill) => {
+			const card = createCard(technicalSkill);
+			technicalSkillsList.appendChild(card);
+		});
 	}
 
 	window.filterProjects = function (language) {
-		const projects = document.querySelectorAll(".project");
+		const cards = document.querySelectorAll(".card");
 
-		projects.forEach((project) => {
-			if (language === "all" || project.getAttribute("data-language") === language) {
-				project.style.display = "block";
+		cards.forEach((card) => {
+			if (
+				language === "all" ||
+				card.getAttribute("data-language") === language ||
+				card.getAttribute("data-language") === ""
+			) {
+				card.style.display = "block";
 			} else {
-				project.style.display = "none";
+				card.style.display = "none";
 			}
 		});
 	};
 
-	function populateSkills() {
-		const skillsList = document.getElementById("skills-list");
-		skills.forEach((skill) => {
-			const div = document.createElement("div");
-			div.innerHTML = `
-            <p>${skill}</p>
-        `;
-			skillsList.appendChild(div);
-		});
-	}
-	function populateTechnicalSkills() {
-		const skillsList = document.getElementById("technical-skills-list");
-		technicalSkills.forEach((skill) => {
-			const div = document.createElement("div");
-			div.innerHTML = `
-            <h4>${skill.name}</h4>
-            <p>${skill.description.replace(/\n/g, "<br>")}</p>
-        `;
-			skillsList.appendChild(div);
-		});
-	}
-
-	loadProjects();
-	populateSkills();
-	populateTechnicalSkills();
+	loadData();
 });
-// ----
-
-const skills = [
-	"• Front-end Development • Back-end Development • Database Management • Data Science",
-	"• Software Development & Testing • Web Application Development • Troubleshooting • Documentation",
-	"• Workflow Design • Test-case Design • Test Automation • Bug Tracking & Reporting • AGILE",
-];
-const technicalSkills = [
-	{
-		name: "Programming / Scripting Languages",
-		description: "JavaScript / TypeScript, Java, Python, C++, R",
-	},
-	{
-		name: "Web / Application Design",
-		description:
-			"HTML5, CSS, Bootstrap, JavaScript / TypeScript, Embedded-JavaScript, React.JS, Tkinter, Electron.JS",
-	},
-	{
-		name: "Databases / Query Languages",
-		description: "SQLite, MySQL, MS SQL Server, PostgreSQL, MongoDB, Redis, GraphQL",
-	},
-	{
-		name: "Web / Application Server",
-		description:
-			"Node.JS, Express.JS, Flask, Django, Spring Boot, Spring Core, Spring REST, Spring MVC, Spring Security, Spring Data JPA, Spring Hibernate",
-	},
-	{
-		name: "Automation Tools",
-		description: "Cucumber, Jest, Cypress, pyTest, Power Automate",
-	},
-	{
-		name: "Tools",
-		description: "Git, GitHub, Postman, Docker, Kubernetes, Linux",
-	},
-];
-
 // ----------------------------
