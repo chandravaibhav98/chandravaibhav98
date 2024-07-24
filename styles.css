@@ -6,7 +6,7 @@ html {
 body {
     text-align: center;
     transition: background-color 0.4s ease;
-    background-color: black;
+    background-color: rgb(29, 29, 29);
     color: white;
 }
 
@@ -72,20 +72,21 @@ hr {
     justify-content: space-between;
     align-items: center;
     background-color: black;
-    padding: 10px 10px;
-    height: 60px;
+    padding: 20px 20px;
+    height: 80px;
 }
 
 .navbar-brand {
     display: flex;
     align-items: center;
-    color: grey;
+    color: white;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .navbar-brand:hover {
-    color: whitesmoke;
+    color: white;
+    text-decoration: overline;
 }
 
 .navbar-logo {
@@ -101,13 +102,14 @@ hr {
 }
 
 .nav-link {
-    color: grey;
+    color: white;
     text-decoration: none;
     font-size: 18px;
 }
 
 .nav-link:hover {
-    color:whitesmoke;
+    color: white;
+    text-decoration: overline;
 }
 
 .container {
