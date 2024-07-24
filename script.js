@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
 				"Implemented an Event-Bus in JavaScript to enable Event-Driven Communication between Services\nDeveloped Client Application using React.JS to create Posts and Comments\nConstructed Kubernetes Deployments for Services and Used Ingress-Nginx for Routing to Services based on hostname & paths\n",
 		},
 		{
-			name: "MVC Web Application for Student Management with JSP, Servlets & MySQL",
+			name: "Student Management MVC-Web Application with JSP, Servlets & MySQL",
 			language: "Java",
 			description:
 				"Simple Student Management System with CRUD operations per Student\nDesigned JSP with JSTL : Core Tags\nConfigured Connection-Pool for JDBC connections",
