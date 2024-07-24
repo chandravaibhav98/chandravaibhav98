@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
 	const keyProjects = [
 		{
-			name: "Microservices based Full Stack Ticketing Web Application in TypeScript with Next.JS, Node.JS, MongoDB, Redis & Kubernetes",
+			name: "Micro-services based Full Stack Ticketing Web Application in TypeScript with Next.JS, Node.JS, MongoDB, Redis & Kubernetes",
 			language: "JavaScript",
 			description:
 				"Enabled Authentication Service with a JWT Token to be shared between Services\n Generated Create Routes for Tickets Service & Orders Service with Kubernetes MongoDB deployments, with an Expiration Service for Active Orders to time out in 15 minutes if Payment is not completed\n Administered NATS Streaming Server for Communication between Services using Event-Publishers & Event-Listeners\n Prepared a 'Common' Module with Events, Errors & Middlewares and Published as npm Package to install for code sharing across Services\n Constructed Kubernetes Deployments for Services and Used Ingress-Nginx for Routing to Services based on hostname & paths\n Developed Client Application using Next.JS and Implemented Payments with Stripe Charges\n Reviewed Tests for Backend Routes using Jest and Configured a GitHub Workflow to Test Services in new PRs\n",
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	];
 	const projects = [
 		{
-			name: "Microservices based Full Stack Blog Web Application in JavaScript with React.JS, Node.JS, MongoDB & Kubernetes",
+			name: "Micro-services based Full Stack Blog Web Application in JavaScript with React.JS, Node.JS, MongoDB & Kubernetes",
 			language: "JavaScript",
 			description:
 				"Implemented an Event-Bus in JavaScript to enable Event-Driven Communication between Services\nDeveloped Client Application using React.JS to create Posts and Comments\nConstructed Kubernetes Deployments for Services and Used Ingress-Nginx for Routing to Services based on hostname & paths\n",
@@ -80,13 +80,13 @@ document.addEventListener("DOMContentLoaded", () => {
 		{
 			name: "Software",
 			description:
-				"Front-end Development\nBack-end Development\nDatabase Management\nData Analytics & Science\nDocumentation\n",
+				"Front-end Development\nBack-end Development\nSQL & NoSQL Databases\nData Analytics & Science\nConfiguration & Deployment (CI/CD)\nDocumentation & Workflow Design\nTest-case Design & Bug Reporting\nAPI & E2E Test Automation\nDebugging & Troubleshooting\nAGILE\n",
 		},
-		{
-			name: "IT",
-			description:
-				"Workflow Design\nTest-case Design\nTest Automation\nTroubleshooting\nBug Tracking\nAGILE\n",
-		},
+		// {
+		// 	name: "domain",
+		// 	description:
+		// 		"",
+		// },
 	];
 	const technicalSkills = [
 		{
@@ -131,13 +131,16 @@ document.addEventListener("DOMContentLoaded", () => {
 			card.setAttribute("data-language", "");
 		}
 
-		const title = document.createElement("h4");
+		const title = document.createElement("h6");
 		title.textContent = item.name;
 		card.appendChild(title);
 
+		const separator = document.createElement("hr"); // Create horizontal line
+		card.appendChild(separator);
+
 		const description = document.createElement("p");
 		// description.textContent = item.description;
-		const lines = item.description.split("\n"); // Split description into lines
+		const lines = item.description.split("\n");
 		lines.forEach((line) => {
 			if (line) {
 				const listItem = document.createElement("li");
