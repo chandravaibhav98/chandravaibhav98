@@ -89,31 +89,58 @@ document.addEventListener("DOMContentLoaded", () => {
 	const keyProjectsContainer = document.getElementById("key-projects");
 	const projectsContainer = document.getElementById("projects");
 
-	function insertKeyProjects() {
+	function createCard(project) {
+		const card = document.createElement("div");
+		card.className = "card";
+
+		const title = document.createElement("h4");
+		title.textContent = project.title;
+		card.appendChild(title);
+
+		const description = document.createElement("p");
+		description.textContent = project.description;
+		card.appendChild(description);
+
+		return card;
+	}
+
+	// Function to load projects
+	function loadProjects() {
 		keyProjects.forEach((project) => {
-			const keyProjectDiv = document.createElement("div");
-			keyProjectDiv.className = "project";
-			keyProjectDiv.setAttribute("data-language", project.language);
-			keyProjectDiv.innerHTML = `
-            <h4>${project.name}</h4>
-            <p>${project.description.replace(/\n/g, "<br>")}</p>
-        `;
-			keyProjectsContainer.appendChild(keyProjectDiv);
+			const card = createCard(project);
+			keyProjectsContainer.appendChild(card);
+		});
+		projects.forEach((project) => {
+			const card = createCard(project);
+			projectsContainer.appendChild(card);
 		});
 	}
 
-	function insertProjects() {
-		projects.forEach((project) => {
-			const projectDiv = document.createElement("div");
-			projectDiv.className = "project";
-			projectDiv.setAttribute("data-language", project.language);
-			projectDiv.innerHTML = `
-            <h4>${project.name}</h4>
-            <p>${project.description.replace(/\n/g, "<br>")}</p>
-        `;
-			projectsContainer.appendChild(projectDiv);
-		});
-	}
+	// function insertKeyProjects() {
+	// 	keyProjects.forEach((project) => {
+	// 		const keyProjectDiv = document.createElement("div");
+	// 		keyProjectDiv.className = "project";
+	// 		keyProjectDiv.setAttribute("data-language", project.language);
+	// 		keyProjectDiv.innerHTML = `
+	//         <h4>${project.name}</h4>
+	//         <p>${project.description.replace(/\n/g, "<br>")}</p>
+	//     `;
+	// 		keyProjectsContainer.appendChild(keyProjectDiv);
+	// 	});
+	// }
+
+	// function insertProjects() {
+	// 	projects.forEach((project) => {
+	// 		const projectDiv = document.createElement("div");
+	// 		projectDiv.className = "project";
+	// 		projectDiv.setAttribute("data-language", project.language);
+	// 		projectDiv.innerHTML = `
+	//         <h4>${project.name}</h4>
+	//         <p>${project.description.replace(/\n/g, "<br>")}</p>
+	//     `;
+	// 		projectsContainer.appendChild(projectDiv);
+	// 	});
+	// }
 
 	// function filterProjects(language) {
 	window.filterProjects = function (language) {
@@ -151,8 +178,9 @@ document.addEventListener("DOMContentLoaded", () => {
 	}
 
 	// Insert projects on page load
-	insertKeyProjects();
-	insertProjects();
+	// insertKeyProjects();
+	// insertProjects();
+	loadProjects();
 	populateSkills();
 	populateTechnicalSkills();
 });

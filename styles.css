@@ -24,3 +24,33 @@ hr {
     display: flex;
         justify-content: space-evenly;
 }
+/*  */
+#key-projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: black;
+    border: 1px solid whitesmoke;
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h4 {
+    margin-top: 0;
+}
+
+.card p {
+    margin-bottom: 0;
+}
