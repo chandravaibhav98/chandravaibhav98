@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		{
 			name: "Software",
 			description:
-				"Front-end Development\nBack-end Development\nSQL & NoSQL Databases\nData Analytics & Science\nConfiguration & Deployment (CI/CD)\nDocumentation & Workflow Design\nTest-case Design & Bug Reporting\nAPI & E2E Test Automation\nDebugging & Troubleshooting\nAGILE\n",
+				"Front-end Development\nBack-end Development\nSQL & NoSQL Databases\nData Analysis, Machine Learning\nConfiguration & Deployment (CI/CD)\nDocumentation & Workflow Design\nTest-case Design & Bug Reporting\nAPI & E2E Test Automation\nDebugging & Troubleshooting\nAGILE\n",
 		},
 		// {
 		// 	name: "domain",
@@ -91,29 +91,28 @@ document.addEventListener("DOMContentLoaded", () => {
 	const technicalSkills = [
 		{
 			name: "Programming / Scripting Languages",
-			description: "JavaScript / TypeScript, Java, Python, C++, R",
+			description: "R\nPython\nJavaScript / TypeScript\nJava\nC / C++",
 		},
 		{
 			name: "Web / Application Design",
 			description:
-				"HTML5, CSS, Bootstrap, JavaScript / TypeScript, Embedded-JavaScript, React.JS, Tkinter, Electron.JS",
+				"HTML5, CSS, Bootstrap\nTcl / Tk\nJavaScript / TypeScript, embedded-JavaScript\nJSP, Thymeleaf\nReact.JS, Electron.JS",
 		},
 		{
 			name: "Databases / Query Languages",
-			description: "SQLite, MySQL, MS SQL Server, PostgreSQL, MongoDB, Redis, GraphQL",
+			description: "SQLite\n MySQL\nMS SQL Server\nPostgreSQL\nMongoDB\nRedis\nGraphQL",
 		},
 		{
 			name: "Web / Application Server",
-			description:
-				"Node.JS, Express.JS, Flask, Django, Spring Boot, Spring Core, Spring REST, Spring MVC, Spring Security, Spring Data JPA, Spring Hibernate",
+			description: "Flask, Django\nNode.JS, Express.JS\nTomcat, Servlets, Spring Framework",
 		},
 		{
 			name: "Automation Tools",
-			description: "Cucumber, Jest, Cypress, pyTest, Power Automate",
+			description: "Cucumber\nPower Automate\npyTest, Playwright\nJest, Cypress\nJUnit",
 		},
 		{
 			name: "Tools",
-			description: "Git, GitHub, Postman, Docker, Kubernetes, Linux",
+			description: "Linux\nDocker, Kubernetes, nginx\nPostman\ngit, gitHub\nRender\nAWS S3, CloudFront",
 		},
 	];
 	// ----------------------------
@@ -131,14 +130,14 @@ document.addEventListener("DOMContentLoaded", () => {
 			card.setAttribute("data-language", "");
 		}
 
-		const title = document.createElement("h6");
+		const title = document.createElement("h4");
 		title.textContent = item.name;
 		card.appendChild(title);
 
 		const separator = document.createElement("hr"); // Create horizontal line
 		card.appendChild(separator);
 
-		const description = document.createElement("p");
+		const description = document.createElement("ul");
 		// description.textContent = item.description;
 		const lines = item.description.split("\n");
 		lines.forEach((line) => {
