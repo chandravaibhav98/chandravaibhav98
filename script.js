@@ -28,16 +28,16 @@ document.addEventListener("DOMContentLoaded", () => {
 				"Implemented an Event-Bus in JavaScript to enable Event-Driven Communication between Services\nDeveloped Client Application using React.JS to create Posts and Comments\nConstructed Kubernetes Deployments for Services and Used Ingress-Nginx for Routing to Services based on hostname & paths\n",
 		},
 		{
+			name: "Employee Management MVC-Web Application with Thymeleaf, Spring-MVC & MySQL",
+			language: "Java",
+			description:
+				"Simple Employee Management System with CRUD operations per Employee\nDesigned with Thymeleaf\nEnabled Authentication with Spring Security\nImproved Application Logging using Aspects & Advices",
+		},
+		{
 			name: "Student Management MVC-Web Application with JSP, Servlets & MySQL",
 			language: "Java",
 			description:
-				"Simple Student Management System with CRUD operations per Student\nDesigned JSP with JSTL : Core Tags\nConfigured Connection-Pool for JDBC connections",
-		},
-		{
-			name: "GitHub Authentication with React.JS & Node.JS",
-			language: "JavaScript",
-			description:
-				"User Login redirects to GitHub login and request access token for the user from GitHub API\n On successful login, the user has an option to import user data from GitHub to the web application",
+				"Simple Student Management System with CRUD operations per Student\nDeveloped JSP with JSTL : Core Tags\nConfigured Connection-Pool for JDBC connections",
 		},
 		{
 			name: "File Sharing Web Application with Node.JS and MongoDB",
@@ -46,10 +46,15 @@ document.addEventListener("DOMContentLoaded", () => {
 				"Password Protected File Sharing using Node.JS and MongoDB\n User Interface implemented using Embedded-JavaScript",
 		},
 		{
-			name: "Stock Watch Web Application with React.JS",
+			name: "GitHub Authentication with React.JS & Node.JS",
 			language: "JavaScript",
 			description:
-				"Developed a React application with an existing API to display various Stocks & Details",
+				"User Login redirects to GitHub login and request access token for the user from GitHub API\n On successful login, the user has an option to import user data from GitHub to the web application",
+		},
+		{
+			name: "Stock Watch Web Application with React.JS",
+			language: "JavaScript",
+			description: "Developed a React application with an existing API to display various Stocks & Details",
 		},
 		{
 			name: "Recipes Web Application  with React.JS",
@@ -96,7 +101,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		{
 			name: "Web / Application Design",
 			description:
-				"HTML5, CSS, Bootstrap\nTcl / Tk\nJavaScript / TypeScript, embedded-JavaScript\nJSP, Thymeleaf\nReact.JS, Electron.JS",
+				"HTML5, CSS, Bootstrap\nTcl / Tk\nJavaScript / TypeScript\n eJS\nJSP, Thymeleaf\nReact.JS, Electron.JS",
 		},
 		{
 			name: "Databases / Query Languages",
@@ -112,7 +117,8 @@ document.addEventListener("DOMContentLoaded", () => {
 		},
 		{
 			name: "Tools",
-			description: "Linux\nDocker, Kubernetes, nginx\nPostman\ngit, gitHub\nRender\nAWS S3, CloudFront",
+			description:
+				"Linux\nDocker, Kubernetes, nginx\nPostman\ngit, gitHub\nCI / CD\nAnsible\nJenkins\nRender\nVercel\nAWS",
 		},
 	];
 	// ----------------------------
