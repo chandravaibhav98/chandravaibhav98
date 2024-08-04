@@ -28,6 +28,12 @@ document.addEventListener("DOMContentLoaded", () => {
 				"Implemented an Event-Bus in JavaScript to enable Event-Driven Communication between Services\nDeveloped Client Application using React.JS to create Posts and Comments\nConstructed Kubernetes Deployments for Services and Used Ingress-Nginx for Routing to Services based on hostname & paths\n",
 		},
 		{
+			name: "Movie-Trailers Full Stack Web Application with React.js, Spring & MongoDB",
+			language: "Java",
+			description:
+				"Home Page Carousel displays list of movies and an option to play movie-trailer & redirect to movie-reviews  \nMovie-reviews list existing reviews and display an option to create Review",
+		},
+		{
 			name: "Employee Management MVC-Web Application with Thymeleaf, Spring-MVC & MySQL",
 			language: "Java",
 			description:
