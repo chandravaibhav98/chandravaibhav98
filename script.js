@@ -31,19 +31,19 @@ document.addEventListener("DOMContentLoaded", () => {
 			name: "Movie-Trailers Full Stack Web Application with React.js, Spring & MongoDB",
 			language: "Java",
 			description:
-				"Home Page Carousel displays list of movies and an option to play movie-trailer & redirect to movie-reviews  \nMovie-reviews list existing reviews and display an option to create Review",
+				"The Home Page Carousel lists movies with options to play trailers and navigate to movie reviews\nThe Movie Reviews section displays existing reviews and provides an option to create a new review.",
 		},
 		{
 			name: "Employee Management MVC-Web Application with Thymeleaf, Spring-MVC & MySQL",
 			language: "Java",
 			description:
-				"Simple Employee Management System with CRUD operations per Employee\nDesigned with Thymeleaf\nEnabled Authentication with Spring Security\nImproved Application Logging using Aspects & Advices",
+				"Developed a simple Employee Management System with CRUD operations using Thymeleaf\nImplemented authentication with Spring Security for secure access\n Enhanced application logging with Aspects and Advices",
 		},
 		{
-			name: "Student Management MVC-Web Application with JSP, Servlets & MySQL",
+			name: "Student Management Full Stack Web Application with JSP, Servlets & MySQL",
 			language: "Java",
 			description:
-				"Simple Student Management System with CRUD operations per Student\nDeveloped JSP with JSTL : Core Tags\nConfigured Connection-Pool for JDBC connections",
+				"Developed a Simple Student Management System with CRUD operations for each student\nUtilized JSP with JSTL Core Tags for dynamic content\nConfigured a connection pool for efficient JDBC connections",
 		},
 		{
 			name: "File Sharing Web Application with Node.JS and MongoDB",
