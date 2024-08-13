@@ -52,14 +52,14 @@ hr {
     padding: 20px;
 }
 
-/* .card {
+.card {
     background-color: black;
     border: 1px solid whitesmoke;
     border-radius: 8px;
     padding: 20px;
     width: 600px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-} */
+}
 
 .card h4 {
     margin-top: 0;
@@ -158,50 +158,6 @@ hr {
 .container {
     margin-top: 40px;
     padding: 20px;
-}
-/* ----- */
-.carousel-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.carousel-wrapper {
-    overflow: hidden;
-    width: 80%;
-}
-
-.carousel {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-}
-
-.card {
-    background-color: black;
-    border: 1px double whitesmoke;
-    border-radius: 8px;
-    padding: 10px;
-    width: 600px;
-    /* box-shadow: 0 2px 5px blueviolet; */
-    flex: 0 0 100%;
-    box-sizing: border-box;
-}
-
-.carousel-btn {
-    background-color: black;
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-}
-
-.prev {
-    margin-right: 10px;
-}
-
-.next {
-    margin-left: 10px;
 }
 /* Responsive Styles */
 @media (max-width: 768px) {
