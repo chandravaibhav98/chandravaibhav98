@@ -57,16 +57,22 @@ hr {
     border: 1px solid whitesmoke;
     border-radius: 8px;
     padding: 20px;
-    width: 600px;
+    width: 900px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .card h4 {
     margin-top: 0;
+    font-size: 18px;
 }
 
 .card p {
     margin-bottom: 0;
+}
+
+.card li {
+    margin-top: 0;
+    font-size: 15px;
 }
 
 .navbar {
