@@ -6,7 +6,7 @@ const keyProjects = [
 			"Enabled Authentication Service with a JWT Token to be shared between Services\n Generated Create Routes for Tickets Service & Orders Service with Kubernetes MongoDB deployments, with an Expiration Service for Active Orders to time out in 15 minutes if Payment is not completed\n Administered NATS Streaming Server for Communication between Services using Event-Publishers & Event-Listeners\n Prepared a 'Common' Module with Events, Errors & Middlewares and Published as npm Package to install for code sharing across Services\n Constructed Kubernetes Deployments for Services and Used Ingress-Nginx for Routing to Services based on hostname & paths\n Developed Client Application using Next.JS and Implemented Payments with Stripe Charges\n Reviewed Tests for Backend Routes using Jest and Configured a GitHub Workflow to Test Services in new PRs\n",
 	},
 	{
-		name: "Microservices Applications with Java, Spring Framework, Spring Cloud, Eureka & Kubernetes",
+		name: "Microservice Applications with Java, Spring Framework, Spring Cloud, Eureka & Kubernetes",
 		language: "Java",
 		description:
 			"Leveraged Spring Cloud Netflix – Eureka Server for inter-service communication\n Implemented a Spring Cloud Configuration Server to centralize shared Properties and Logic\n Set up Microservices with Distributed Tracing using Zipkin and OpenTelemetry\n Created Kubernetes deployments and validated deployments on Google Cloud with Google Kubernetes Engine",
