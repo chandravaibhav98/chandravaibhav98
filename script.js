@@ -1,9 +1,15 @@
 const keyProjects = [
 	{
-		name: "Micro-services based Full Stack Ticketing Web Application in TypeScript with Next.JS, Node.JS, MongoDB, Redis & Kubernetes",
+		name: "Microservices based Full Stack Ticketing Web Application in TypeScript with Next.JS, Node.JS, MongoDB, Redis & Kubernetes",
 		language: "JavaScript",
 		description:
 			"Enabled Authentication Service with a JWT Token to be shared between Services\n Generated Create Routes for Tickets Service & Orders Service with Kubernetes MongoDB deployments, with an Expiration Service for Active Orders to time out in 15 minutes if Payment is not completed\n Administered NATS Streaming Server for Communication between Services using Event-Publishers & Event-Listeners\n Prepared a 'Common' Module with Events, Errors & Middlewares and Published as npm Package to install for code sharing across Services\n Constructed Kubernetes Deployments for Services and Used Ingress-Nginx for Routing to Services based on hostname & paths\n Developed Client Application using Next.JS and Implemented Payments with Stripe Charges\n Reviewed Tests for Backend Routes using Jest and Configured a GitHub Workflow to Test Services in new PRs\n",
+	},
+	{
+		name: "Microservices Applications with Java, Spring Framework, Spring Cloud, Eureka & Kubernetes",
+		language: "Java",
+		description:
+			"Leveraged Spring Cloud Netflix – Eureka Server for inter-service communication\n Implemented a Spring Cloud Configuration Server to centralize shared Properties and Logic\n Set up Microservices with Distributed Tracing using Zipkin and OpenTelemetry\n Created Kubernetes deployments and validated deployments on Google Cloud with Google Kubernetes Engine",
 	},
 	{
 		name: "Full Stack eCommerce Web Application with MongoDB, Express, React.JS, Node.JS",
@@ -12,7 +18,7 @@ const keyProjects = [
 			"Ensured functionalities for User to Register, Login / Logout, Place Order and Create Product Reviews\n Prepared data models for products, orders, users using Mongoose\n Developed Custom Middleware and Implemented User Authentication using JWT Web Token\n Handled App State Management using Redux Toolkit\n Implemented Admin Pages and Functionality to Create/Edit/Delete products and users\n Activated and tested Payments with PayPal Integration\n Configured, Deployed and Tested Production-Build on Render\n",
 	},
 	{
-		name: "Micro-Frontends based Blog App with JavaScript and React.JS",
+		name: "Microfrontends based Blog App with JavaScript and React.JS",
 		language: "JavaScript",
 		description:
 			"Developed micro-frontend sub apps using Webpack to enable development for different sub-apps using different front-end frameworks\n Implemented CI/CD pipelines to build & deploy sub-apps to Amazon Web Services\n Configured and Deployed production-build to AWS using S3 & CloudFront\n",
@@ -21,7 +27,7 @@ const keyProjects = [
 ];
 const projects = [
 	{
-		name: "Micro-services based Full Stack Blog Web Application in JavaScript with React.JS, Node.JS, MongoDB & Kubernetes",
+		name: "Microservices based Full Stack Blog Web Application in JavaScript with React.JS, Node.JS, MongoDB & Kubernetes",
 		language: "JavaScript",
 		description:
 			"Implemented an Event-Bus in JavaScript to enable Event-Driven Communication between Services\nDeveloped Client Application using React.JS to create Posts and Comments\nConstructed Kubernetes Deployments for Services and Used Ingress-Nginx for Routing to Services based on hostname & paths\n",
