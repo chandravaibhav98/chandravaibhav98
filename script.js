@@ -27,7 +27,7 @@ const keyProjects = [
 		name: "Dev Environment with Terraform & Azure",
 		language: "Ops",
 		description:
-			"Developed a Terraform script to automate the setup and management of a development environment, ensuring consistent and reproducible infrastructure\nAutomated configuration of scalable resources such as virtual machines, networks, and storage, to meet the specific requirements of development workflows\nCreated a template for automated Docker installation on virtual machines\n",
+			"Developed a Terraform script to automate the setup and management of a development environment, ensuring consistent and reproducible infrastructure\nAutomated configuration of scalable resources such as virtual machines, networks, and storage, to meet the specific requirements of development workflows\nCreated a template for automated Docker & Kubernetes installations on virtual machines\n",
 	},
 	// { name: "Project x", language: "Python", description: "description" },
 ];
