@@ -113,32 +113,33 @@ const skills = [
 const technicalSkills = [
 	{
 		name: "Programming / Scripting Languages",
-		description: "R\nPython\nJavaScript / TypeScript\nJava\nC / C++",
+		description: "R\n Python\n JavaScript / TypeScript\n Java\n C / C++",
 	},
 	{
 		name: "Web / Application Design",
 		description:
-			"HTML5, CSS, Bootstrap\nTcl / Tk\nJavaScript / TypeScript\n eJS\nJSP, Thymeleaf\nReact.JS, Electron.JS",
+			"HTML5, CSS, Bootstrap\n Tcl / Tk\n jQuery, JavaScript / TypeScript\n eJS\n JSP, Thymeleaf\n React.JS, Electron.JS\n Astro",
 	},
 	{
 		name: "Databases / Query Languages",
-		description: "SQLite\n MySQL\nMS SQL Server\nPostgreSQL\nMongoDB\nRedis\nGraphQL",
+		description: "SQLite\n MySQL\n MS SQL Server\n PostgreSQL\n MongoDB\n Redis\n GraphQL",
 	},
 	{
 		name: "Web / Application Server",
-		description: "Flask, Django\nNode.JS, Express.JS\nTomcat, Servlets, Spring Boot, Spring Framework",
+		description: "Flask, Django\n Node.JS, Express.JS\n Tomcat, Servlets, Spring Boot, Spring Framework",
 	},
 	{
 		name: "Automation Tools",
-		description: "Cucumber\nPower Automate\npyTest, Playwright\nJest, Cypress\nJUnit",
+		description: "Cucumber\n Power Automate\n pyTest, Playwright\n Jest, Cypress\n JUnit",
 	},
 	{
 		name: "Tools",
-		description: "Linux\nDocker, Kubernetes, nginx\nPostman\ngit, gitHub\nCI / CD\nTerraform\nAnsible\nJenkins\n",
+		description:
+			"Linux\n Docker, Kubernetes, nginx\n Postman\n git, gitHub\n CI / CD\n Terraform\n Ansible\n Jenkins\n",
 	},
 	{
 		name: "Cloud Platforms",
-		description: "Render\nVercel\nAmazon Web Services\nGoogle Cloud\nMicrosoft Azure",
+		description: "Render\n Netlify\n Vercel\n Amazon Web Services\n Google Cloud\n Microsoft Azure",
 	},
 ];
 const keyProjectsContainer = document.getElementById("key-projects");
