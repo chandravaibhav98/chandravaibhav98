@@ -18,7 +18,7 @@ chandravaibhav98/chandravaibhav98 is a ✨ special ✨ repository because its `R
 
 <h3 align="center">Reference</h3>
 
-- [Markdown](https://github.com/chandravaibhav98/chandravaibhav98/blob/main/Markdown-Cheatsheet.md)
+- [Markdown](https://github.com/chandravaibhav98/chandravaibhav98/blob/main/docs/Markdown-Cheatsheet.md)
 - [Git](https://education.github.com/git-cheat-sheet-education.pdf)
 - [Docker](https://docs.docker.com/get-started/docker_cheatsheet.pdf)
 - [Kubernetes](https://kubernetes.io/docs/reference/kubectl/generated/)
