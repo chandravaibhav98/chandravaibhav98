@@ -14,14 +14,15 @@ html {
 
 body {
     width: 100%;
-    height: 100vh;
+    height:auto;
     color: #fff;
     background: linear-gradient(-45deg,#001858,#040035,rgb(26, 26, 26),black);
     background-size: 400%, 400%;
     position: relative;
     animation: change 60s ease-in-out infinite;
+    text-align: center;
+    background-color: rgb(29, 29, 29);
 }
-
 
 @keyframes change {
     0% {
@@ -37,12 +38,6 @@ body {
     }
 }
 
-body {
-    text-align: center;
-    transition: background-color 0.4s ease;
-    background-color: rgb(29, 29, 29);
-    color: white;
-}
 h3 {
     display: grid;
 }
