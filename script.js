@@ -15,7 +15,7 @@ const keyProjects = [
 		name: "Full Stack eCommerce Web Application with MongoDB, Express, React.JS, Node.JS",
 		language: "JavaScript",
 		description:
-			"Ensured functionalities for User to Register, Login / Logout, Place Order and Create Product Reviews\nPrepared data models for products, orders, users using Mongoose\nDeveloped Custom Middleware and Implemented User Authentication using JWT Web Token\nHandled App State Management using Redux Toolkit\nImplemented Admin Pages and Functionality to Create/Edit/Delete products and users\nActivated and tested Payments with PayPal Integration\nConfigured, Deployed and Tested Deployments on Render\n",
+			"Ensured functionalities for User to Register, Login / Logout, Place Order and Create Product Reviews\nPrepared data models for products, orders, users using Mongoose\nDeveloped Custom Middleware and Implemented User Authentication using JWT Web Token\nHandled App State Management using Redux Toolkit\nImplemented Admin Pages and Functionality to Create/Edit/Delete products and users\nActivated and tested Payments with PayPal Integration\nConfigured, Deployed and Tested Deployments on Render\nAutomated Cloud Infrastructure and Formulated CI/CD pipeline to Deploy on Azure",
 	},
 	{
 		name: "Microfrontends based Blog App with JavaScript and React.JS",
