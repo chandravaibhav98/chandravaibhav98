@@ -17,7 +17,7 @@ chandravaibhav98/chandravaibhav98 is a ✨ special ✨ repository because its `R
 
 <h3 align="center">Reference</h3>
 
-- [SQL](https://github.com/chandravaibhav98/chandravaibhav98/blob/main/docs/sql.md)
+- [SQL](https://github.com/chandravaibhav98/chandravaibhav98/blob/main/docs/sql.pdf)
 - [Docker](https://docs.docker.com/get-started/docker_cheatsheet.pdf)
 - [Kubernetes](https://kubernetes.io/docs/reference/kubectl/generated/)
 - [Linux](https://www.geeksforgeeks.org/linux-commands-cheat-sheet/) / [PowerShell](https://github.com/ab14jain/PowerShell)
