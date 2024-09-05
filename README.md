@@ -17,10 +17,11 @@ chandravaibhav98/chandravaibhav98 is a ✨ special ✨ repository because its `R
 
 <h3 align="center">Reference</h3>
 
-- [SQL](https://dbvis.com/wp-content/uploads/2024/04/SQL-Cheat-Sheet.pdf) / [MongoDB](https://www.mongodb.com/developer/products/mongodb/cheat-sheet/)
-- [Docker](https://docs.docker.com/get-started/docker_cheatsheet.pdf)
-- [Kubernetes](https://kubernetes.io/docs/reference/kubectl/generated/)
-- [Linux](https://www.geeksforgeeks.org/linux-commands-cheat-sheet/) / [PowerShell](https://github.com/ab14jain/PowerShell)
-- [Git](https://education.github.com/git-cheat-sheet-education.pdf)
-- [Markdown](https://www.markdownguide.org/cheat-sheet/)
-  - [Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables)
+|                                                                              |                                                                            |
+|------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| [SQL](https://dbvis.com/wp-content/uploads/2024/04/SQL-Cheat-Sheet.pdf)      | [MongoDB](https://www.mongodb.com/developer/products/mongodb/cheat-sheet/) |
+| [Docker](https://docs.docker.com/get-started/docker_cheatsheet.pdf)          | [Kubernetes](https://kubernetes.io/docs/reference/kubectl/generated/)      |
+| [Linux](https://www.geeksforgeeks.org/linux-commands-cheat-sheet/)           | [PowerShell](https://github.com/ab14jain/PowerShell)                       |
+| [Git](https://education.github.com/git-cheat-sheet-education.pdf)            |                                                                            |
+| [Markdown](https://www.markdownguide.org/cheat-sheet/)                       |                                                                            |
+| [Tables Generator](https://www.tablesgenerator.com/markdown_tables) |                                                                            |
