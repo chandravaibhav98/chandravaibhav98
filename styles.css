@@ -12,6 +12,34 @@ html {
     text-align: center;
 }
 
+header {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+
+header .card {
+    width: 100%;
+    /* Full width for the header card */
+    max-width: 1200px;
+    /* Maximum width for readability on large screens */
+    margin: 0 auto;
+    /* Center the card */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+#last-updated {
+    color: #888;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    position: absolute;
+        right: 20px;
+}
+
 body {
     width: 100%;
     height:auto;

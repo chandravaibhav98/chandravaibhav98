@@ -207,7 +207,8 @@ window.filterProjects = function (language) {
 		if (
 			language === "all" ||
 			card.getAttribute("data-language") === language ||
-			card.getAttribute("data-language") === ""
+			card.getAttribute("data-language") === "" ||
+			card.getAttribute("data-language") === "header"
 		) {
 			card.style.display = "block";
 		} else {
@@ -220,3 +221,17 @@ document.addEventListener("DOMContentLoaded", () => {
 	loadData();
 });
 // ----------------------------
+const lastUpdated = document.getElementById("last-updated");
+
+// Create a new date object
+const today = new Date();
+
+// Format the date as needed (e.g., 'October 2, 2024')
+const formattedDate = today.toLocaleDateString("en-US", {
+	year: "numeric",
+	month: "long",
+	day: "numeric",
+});
+
+// Set the text content for the last updated element
+lastUpdated.textContent = `Last Updated : ${formattedDate}`;
