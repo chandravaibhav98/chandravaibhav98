@@ -106,7 +106,7 @@ const projects = [
 ];
 const skills = [
 	{
-		name: "Software",
+		name: "Web / Application",
 		description:
 			"Front-end Development\nBack-end Development\nSQL & NoSQL Databases\nData Analysis, Machine Learning\nConfiguration & Deployment (CI/CD)\nDocumentation & Workflow Design\nTest-case Design & Bug Reporting\nAPI & E2E Test Automation\nDebugging & Troubleshooting\nAGILE\n",
 	},
@@ -119,16 +119,16 @@ const skills = [
 const technicalSkills = [
 	{
 		name: "Programming / Scripting Languages",
-		description: "R\n Python\n JavaScript / TypeScript\n Java\n C / C++",
+		description: "Python, R\n JavaScript / TypeScript\n Java\n C / C++",
 	},
 	{
 		name: "Web / Application Design",
 		description:
-			"HTML5, CSS, Bootstrap\n Tcl / Tk\n jQuery, JavaScript / TypeScript\n eJS\n JSP, Thymeleaf\n React.JS, Electron.JS\n Astro",
+			"HTML5, CSS, Bootstrap\n Tcl / Tk\n jQuery, JavaScript / TypeScript\n eJS\n JSP, Thymeleaf\n Angular, React.JS, Vue.JS Electron.JS\n Astro",
 	},
 	{
 		name: "Databases / Query Languages",
-		description: "SQLite\n MySQL\n MS SQL Server\n PostgreSQL\n MongoDB\n Redis\n GraphQL",
+		description: "SQLite, MySQL, PostgreSQL\n MS SQL Server\n MongoDB\n Redis\n GraphQL",
 	},
 	{
 		name: "Web / Application Server",
@@ -145,7 +145,7 @@ const technicalSkills = [
 	},
 	{
 		name: "Cloud Platforms",
-		description: "Render\n Netlify\n Vercel\n Amazon Web Services\n Google Cloud\n Microsoft Azure",
+		description: "Render, Netlify, Vercel\n Amazon Web Services, Google Cloud, Microsoft Azure",
 	},
 ];
 const keyProjectsContainer = document.getElementById("key-projects");
