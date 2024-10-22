@@ -6,7 +6,7 @@ const keyProjects = [
 			"Enabled Authentication Service with a JWT Token to be shared between Services\nGenerated Create Routes for Tickets Service & Orders Service with Kubernetes MongoDB deployments, with an Expiration Service for Active Orders to time out in 15 minutes if Payment is not completed\nAdministered NATS Streaming Server for Communication between Services using Event-Publishers & Event-Listeners\nPrepared a 'Common' Module with Events, Errors & Middlewares and Published as npm Package to install for code sharing across Services\nConstructed Kubernetes Deployments for Services and Used Ingress-Nginx for Routing to Services based on hostname & paths\nDeveloped Client Application using Next.JS and Implemented Payments with Stripe Charges\nReviewed Tests for Backend Routes using Jest and Configured a GitHub Workflow to Test Services in new PRs\n",
 	},
 	{
-		name: "Microservice Applications with Java, Spring Framework, Spring Cloud, Eureka & Kubernetes",
+		name: "Microservices with Java, Spring Framework, Spring Cloud, Eureka & Kubernetes",
 		language: "Java",
 		description:
 			"Leveraged Spring Cloud Netflix – Eureka Server for inter-service communication\nImplemented a Spring Cloud Configuration Server to centralize shared Properties and Logic\nSet up Microservices with Distributed Tracing using Zipkin and OpenTelemetry\nCreated Kubernetes deployments and validated deployments on Google Cloud with Google Kubernetes Engine",
@@ -108,7 +108,7 @@ const skills = [
 	{
 		name: "Web / Application",
 		description:
-			"Front-end Development\nBack-end Development\nSQL & NoSQL Databases\nData Analysis, Machine Learning\nConfiguration & Deployment (CI/CD)\nDocumentation & Workflow Design\nTest-case Design & Bug Reporting\nAPI & E2E Test Automation\nDebugging & Troubleshooting\nAGILE\n",
+			"Front-end Development, Back-end Development\n SQL & NoSQL Databases\n Data Analysis, Machine Learning\n Configuration & Deployment, CI/CD\n Documentation & Workflow Design\n Test-case Design & Bug Reporting\n API & E2E Test Automation\n AGILE",
 	},
 	// {
 	// 	name: "domain",
