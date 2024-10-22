@@ -24,6 +24,12 @@ const keyProjects = [
 			"Developed micro-frontend sub apps using Webpack to enable development for different sub-apps using different front-end frameworks\nImplemented CI/CD pipelines to build & deploy sub-apps to Amazon Web Services\nConfigured and Deployed production-build to AWS using S3 & CloudFront\n",
 	},
 	{
+		name: "MVC based Job Portal Application with Spring-MVC, Thymeleaf & MySQL ",
+		language: "Java",
+		description:
+			"Designed Recruiter Dashboard to Create / Edit Jobs & Candidate Dashboard to Search / Save / Apply for jobs\nImplemented Global Search for Jobs & Facilitated Authentication with Spring-Security for Candidates & Recruiters\nDeveloped File Upload / Download Utilities for Pictures & PDFs",
+	},
+	{
 		name: "Dev Environment with Terraform & Azure",
 		language: "Ops",
 		description:
@@ -45,7 +51,7 @@ const projects = [
 			"The Home Page Carousel lists movies with options to play trailers and navigate to movie reviews\nThe Movie Reviews section displays existing reviews and provides an option to create a new review.",
 	},
 	{
-		name: "Employee Management MVC-Web Application with Thymeleaf, Spring-MVC & MySQL",
+		name: "MVC based Employee Management Web Application with Spring-MVC, Thymeleaf & MySQL",
 		language: "Java",
 		description:
 			"Developed a simple Employee Management System with CRUD operations using Thymeleaf\nImplemented authentication with Spring Security for secure access\n Enhanced application logging with Aspects and Advices",
