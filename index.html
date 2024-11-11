@@ -54,35 +54,36 @@
 						</div>
 					</div>
 				</div>
-				<div id="project-filter">
+				<div id="filter-buttons">
 					<button
 						type="button"
+						id="filter-all"
 						class="btn btn-outline-info"
-						onclick="filterProjects('all')">
+						onclick="filterProjects('all', this)">
 						Filter : All
 					</button>
 					<button
 						type="button"
 						class="btn btn-outline-info"
-						onclick="filterProjects('Python')">
+						onclick="filterProjects('Python', this)">
 						Python
 					</button>
 					<button
 						type="button"
 						class="btn btn-outline-info"
-						onclick="filterProjects('JavaScript')">
+						onclick="filterProjects('JavaScript', this)">
 						JavaScript / TypeScript
 					</button>
 					<button
 						type="button"
 						class="btn btn-outline-info"
-						onclick="filterProjects('Java')">
+						onclick="filterProjects('Java', this)">
 						Java
 					</button>
 					<button
 						type="button"
 						class="btn btn-outline-info"
-						onclick="filterProjects('Ops')">
+						onclick="filterProjects('Ops', this)">
 						Ops
 					</button>
 				</div>
@@ -112,6 +113,30 @@
 				</p>
 
 				<br />
+				<div id="toggle-buttons">
+					<hr />
+					Toggle Sections :
+					<button
+						class="btn btn-outline-info"
+						onclick="toggleSection('key-projects', this)">
+						Key Projects
+					</button>
+					<button
+						class="btn btn-outline-info"
+						onclick="toggleSection('projects', this)">
+						Projects
+					</button>
+					<button
+						class="btn btn-outline-info"
+						onclick="toggleSection('technical-skills-list', this)">
+						Technical Skills
+					</button>
+					<button
+						class="btn btn-outline-info"
+						onclick="toggleSection('skills-list', this)">
+						Skills
+					</button>
+				</div>
 			</div>
 			<hr />
 		</header>
@@ -121,7 +146,9 @@
 				<section>
 					<h3>Key Projects</h3>
 					<br />
-					<div id="key-projects">
+					<div
+						id="key-projects"
+						class="content-section">
 						<!-- Elements will be added from script.js -->
 					</div>
 					<hr />
@@ -130,26 +157,32 @@
 				<section>
 					<h3>Projects</h3>
 					<br />
-					<div id="projects">
+					<div
+						id="projects"
+						class="content-section">
 						<!-- Elements will be added from script.js -->
 					</div>
 					<hr />
 				</section>
 			</section>
 
-			<section id="skills">
+			<section>
 				<h3>Technical Skills</h3>
 				<br />
-				<div id="technical-skills-list">
+				<div
+					id="technical-skills-list"
+					class="content-section">
 					<!-- Elements will be added from script.js -->
 				</div>
 				<hr />
 			</section>
 
-			<section id="skills">
+			<section>
 				<h3>Skills</h3>
 				<br />
-				<div id="skills-list">
+				<div
+					id="skills-list"
+					class="content-section">
 					<!-- Elements will be added from script.js -->
 				</div>
 				<hr />

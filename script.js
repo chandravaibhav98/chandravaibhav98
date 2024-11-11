@@ -1,3 +1,7 @@
+const keyProjectsContainer = document.getElementById("key-projects");
+const projectsContainer = document.getElementById("projects");
+const skillsList = document.getElementById("skills-list");
+const technicalSkillsList = document.getElementById("technical-skills-list");
 const keyProjects = [
 	{
 		name: "Microservices based Full Stack Ticketing Web Application in TypeScript with Next.JS, Node.JS, MongoDB, Redis & Kubernetes",
@@ -37,6 +41,7 @@ const keyProjects = [
 	},
 	// { name: "Project x", language: "Python", description: "description" },
 ];
+
 const projects = [
 	{
 		name: "Microservices based Full Stack Blog Web Application in JavaScript with React.JS, Node.JS, MongoDB & Kubernetes",
@@ -104,6 +109,7 @@ const projects = [
 	},
 	// { name: "Project x", language: "Python", description: "description" },
 ];
+
 const skills = [
 	{
 		name: "Web / Application",
@@ -116,6 +122,7 @@ const skills = [
 	// 		"",
 	// },
 ];
+
 const technicalSkills = [
 	{
 		name: "Programming / Scripting Languages",
@@ -148,10 +155,6 @@ const technicalSkills = [
 		description: "Render, Netlify, Vercel\n Amazon Web Services, Google Cloud, Microsoft Azure",
 	},
 ];
-const keyProjectsContainer = document.getElementById("key-projects");
-const projectsContainer = document.getElementById("projects");
-const skillsList = document.getElementById("skills-list");
-const technicalSkillsList = document.getElementById("technical-skills-list");
 // ----------------------------
 function createCard(item) {
 	const card = document.createElement("div");
@@ -170,7 +173,7 @@ function createCard(item) {
 	card.appendChild(separator);
 
 	const description = document.createElement("ul");
-	// description.textContent = item.description;
+
 	const lines = item.description.split("\n");
 	lines.forEach((line) => {
 		if (line) {
@@ -206,7 +209,7 @@ function loadData() {
 	});
 }
 
-window.filterProjects = function (language) {
+function filterProjects(language, button) {
 	const cards = document.querySelectorAll(".card");
 
 	cards.forEach((card) => {
@@ -216,28 +219,48 @@ window.filterProjects = function (language) {
 			card.getAttribute("data-language") === "" ||
 			card.getAttribute("data-language") === "header"
 		) {
-			card.style.display = "block";
+			card.style.display = "flex";
 		} else {
 			card.style.display = "none";
 		}
 	});
-};
+
+	const buttons = document.querySelectorAll("#filter-buttons button");
+	buttons.forEach((btn) => {
+		btn.classList.remove("active");
+	});
+
+	button.classList.add("active");
+}
+
+function toggleSection(sectionId, button) {
+	const sections = document.querySelectorAll(".content-section");
+	sections.forEach((section) => {
+		section.style.display = "none";
+	});
+
+	document.getElementById(sectionId).style.display = "flex";
+
+	const buttons = document.querySelectorAll("#toggle-buttons button");
+	buttons.forEach((btn) => {
+		btn.classList.remove("active");
+	});
+
+	button.classList.add("active");
+}
 
 document.addEventListener("DOMContentLoaded", () => {
 	loadData();
+	toggleSection("key-projects", document.querySelector("#toggle-buttons button"));
 });
-// ----------------------------
-const lastUpdated = document.getElementById("last-updated");
 
-// Create a new date object
+const lastUpdated = document.getElementById("last-updated");
 const today = new Date();
 
-// Format the date as needed (e.g., 'October 2, 2024')
 const formattedDate = today.toLocaleDateString("en-US", {
 	year: "numeric",
 	month: "long",
 	day: "numeric",
 });
 
-// Set the text content for the last updated element
 lastUpdated.textContent = `Last Updated : ${formattedDate}`;
