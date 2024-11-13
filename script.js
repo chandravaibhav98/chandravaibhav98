@@ -2,9 +2,10 @@ const keyProjectsContainer = document.getElementById("key-projects");
 const projectsContainer = document.getElementById("projects");
 const skillsList = document.getElementById("skills-list");
 const technicalSkillsList = document.getElementById("technical-skills-list");
+
 const keyProjects = [
 	{
-		name: "Microservices based Full Stack Ticketing Web Application in TypeScript with Next.JS, Node.JS, MongoDB, Redis & Kubernetes",
+		name: "Microservices based Full Stack Ticketing Web Application in TypeScript with Next.JS, Node.JS, MongoDB, Redis & Kubernetes with Stripe Payments Integration",
 		language: "JavaScript",
 		description:
 			"Enabled Authentication Service with a JWT Token to be shared between Services\nGenerated Create Routes for Tickets Service & Orders Service with Kubernetes MongoDB deployments, with an Expiration Service for Active Orders to time out in 15 minutes if Payment is not completed\nAdministered NATS Streaming Server for Communication between Services using Event-Publishers & Event-Listeners\nPrepared a 'Common' Module with Events, Errors & Middlewares and Published as npm Package to install for code sharing across Services\nConstructed Kubernetes Deployments for Services and Used Ingress-Nginx for Routing to Services based on hostname & paths\nDeveloped Client Application using Next.JS and Implemented Payments with Stripe Charges\nReviewed Tests for Backend Routes using Jest and Configured a GitHub Workflow to Test Services in new PRs\n",
@@ -16,7 +17,13 @@ const keyProjects = [
 			"Leveraged Spring Cloud Netflix – Eureka Server for inter-service communication\nImplemented a Spring Cloud Configuration Server to centralize shared Properties and Logic\nSet up Microservices with Distributed Tracing using Zipkin and OpenTelemetry\nCreated Kubernetes deployments and validated deployments on Google Cloud with Google Kubernetes Engine",
 	},
 	{
-		name: "Full Stack eCommerce Web Application with MongoDB, Express, React.JS, Node.JS",
+		name: "Library Full Stack Web Application with React.JS, Spring & MySQL with Okta Authentication & Stripe Payments Integrations",
+		language: "Java",
+		description:
+			"Developed Client Application using React.JS & Utilized Lombok, Spring Data REST, and JPARepository to streamline backend codebase and efficiently manage data with Security configuration\nIntegrated Okta Authentication for secure user login and Stripe Payments for processing transactions, enhancing user experience and security\nSecured the application with HTTPS using OpenSSL and keytool utilities, ensuring data encryption and secure data transmission",
+	},
+	{
+		name: "Full Stack eCommerce Web Application with MongoDB, Express, React.JS, Node.JS with Paypal Payments Integration",
 		language: "JavaScript",
 		description:
 			"Ensured functionalities for User to Register, Login / Logout, Place Order and Create Product Reviews\nPrepared data models for products, orders, users using Mongoose\nDeveloped Custom Middleware and Implemented User Authentication using JWT Web Token\nHandled App State Management using Redux Toolkit\nImplemented Admin Pages and Functionality to Create/Edit/Delete products and users\nActivated and tested Payments with PayPal Integration\nConfigured, Deployed and Tested Deployments on Render\nAutomated Cloud Infrastructure and Formulated CI/CD pipeline to Deploy on Azure",
