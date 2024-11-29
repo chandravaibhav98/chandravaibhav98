@@ -25,3 +25,4 @@ chandravaibhav98/chandravaibhav98 is a ✨ special ✨ repository because its `R
 | [Git](https://education.github.com/git-cheat-sheet-education.pdf)            |                                                                            |
 | [Markdown](https://www.markdownguide.org/cheat-sheet/)                       |                                                                            |
 | [Tables Generator](https://www.tablesgenerator.com/markdown_tables) |                                                                            |
+| [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) |                                                                            |
