@@ -5,7 +5,6 @@
 <hr/>
 <p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=chandravaibhav98&theme=dark_lover" alt="chandravaibhav98" /></a> </p>
 
-<p align="center"><img align="center" height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=chandravaibhav98&theme=javascript-dark" alt="chandravaibhav98" /></p>
 
 </div>
 
@@ -26,3 +25,25 @@ chandravaibhav98/chandravaibhav98 is a ✨ special ✨ repository because its `R
 | [Markdown](https://www.markdownguide.org/cheat-sheet/)                       |                                                                            |
 | [Tables Generator](https://www.tablesgenerator.com/markdown_tables) |                                                                            |
 | [HTTP response status codes](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) |                                                                            |
+
+
+<hr />
+Your Year in Code: 🌟🚀🔨 🎉 ✨ You've unleashed 2940 magical commits this year, crafting projects in JavaScript, TypeScript, Java, and more! 🚀🔨✨
+
+
+Code Superpower of the Year: 🦸‍♂️ The Commit Ninja - Your swift and silent strikes on the commit button amaze us all! 💨
+
+
+Commit Horoscope: 🌟 Embrace the tidal wave of code ahead, but remember to take a break and enjoy the view every now and then. Code not only what you see, but also what you feel! 🌎
+
+
+The Week of Wonders: 🎪✨ March 27th - April 2nd - When you single-handedly conquered 346 commits in a week! 🤩
+
+
+The Lazy Coder's Award: ipp stars💤 You took a well deserved rest over the 5th to the 10th of October, sleeping on the crown of being an active coder! 😴
+
+
+Open Source Spirit Animal: 🐍 The Coding Cobra - Like the cunning cobra, your lengthy TypeScript commits strike with precision! 🐍
+
+
+Roast the user: 🥘🍻 "May your code be buggy, and your commits be frequent, but may you always have the discipline to refactor later!" 🍻🥘
