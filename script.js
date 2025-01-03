@@ -138,7 +138,7 @@ const technicalSkills = [
 	{
 		name: "Web / Application Design",
 		description:
-			"HTML5, CSS, Bootstrap\n Tcl / Tk\n jQuery, JavaScript / TypeScript\n eJS\n JSP, Thymeleaf\n Angular, React.JS, Vue.JS Electron.JS\n Astro",
+			"HTML5, CSS, Bootstrap\n Tcl / Tk\n jQuery, JavaScript / TypeScript\n eJS\n JSP, Thymeleaf\n Django\n Angular, React.JS, Vue.JS Electron.JS\n Astro",
 	},
 	{
 		name: "Databases / Query Languages",
@@ -146,7 +146,7 @@ const technicalSkills = [
 	},
 	{
 		name: "Web / Application Server",
-		description: "Flask, Django\n Node.JS, Express.JS\n Tomcat, Servlets, Spring Boot, Spring Framework",
+		description: "Flask\n Node.JS, Express.JS\n Tomcat, Servlets, Spring Boot, Spring Framework",
 	},
 	{
 		name: "Automation Tools",
