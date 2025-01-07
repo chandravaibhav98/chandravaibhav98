@@ -75,6 +75,12 @@ const projects = [
 			"Developed a Simple Student Management System with CRUD operations for each student\nUtilized JSP with JSTL Core Tags for dynamic content\nConfigured a connection pool for efficient JDBC connections",
 	},
 	{
+		name: "Blog Web Application with Django and PostgreSQL",
+		language: "Python",
+		description:
+			"Blog application with Register, Login, Add Posts, View Post & Comments related to post, Update & Delete Records functionalities\n Registered Data Models with custom settings on Django Admin to manage data with Super User \n Configured & Deployed on AWS Elastic Beanstalk with S3 Bucket for static files \n Migrated from SQLite to PostgreSQL for production",
+	},
+	{
 		name: "File Sharing Web Application with Node.JS and MongoDB",
 		language: "JavaScript",
 		description:
@@ -92,7 +98,7 @@ const projects = [
 		description: "Developed a React application with an existing API to display various Stocks & Details",
 	},
 	{
-		name: "Recipes Web Application  with React.JS",
+		name: "Recipes Web Application with React.JS",
 		language: "JavaScript",
 		description:
 			"Developed a React application to search Recipes with an existing online API\n Set Recent Searches to Local Storage",
@@ -103,7 +109,7 @@ const projects = [
 		description: "Developed a React application to allocate Team members with useState",
 	},
 	{
-		name: "Customer-Relationship-Management application with Python/Django and MySQL",
+		name: "Customer-Relationship-Management Application with Django and MySQL",
 		language: "Python",
 		description:
 			"Customer Relationship Management application with Register, Login, Add Records, View Records, Update Records, Delete Records functionalities",
