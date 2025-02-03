@@ -5,6 +5,7 @@ Private reference to repositories
 ### JavaScript ###
 
 - [Web Development](https://github.com/chandravaibhav98/The-Complete-2023-Web-Development-Bootcamp)
+- [Modern JS](https://github.com/chandravaibhav98/Modern-JS)
 - [Micro-frontends App](https://github.com/chandravaibhav98/Microfrontends-with-React)
 - [MERN eCommerce App](https://github.com/chandravaibhav98/MERN-From-Scratch-2023---eCommerce-Platform)
 - [Micro-services App with MERN / Next.JS](https://github.com/chandravaibhav98/Microservices-with-NodeJS---React)
@@ -25,13 +26,16 @@ Private reference to repositories
 
 ### Python ###
 
+- [Data Structures & Algorithms](https://github.com/chandravaibhav98/Data-Structures---Algorithms-with-Python)
 - [Flask](https://github.com/chandravaibhav98/flask-series)
 - [Django](https://github.com/chandravaibhav98/Python-Django)
 - [Django App](https://github.com/chandravaibhav98/Django-Project---CRM-App)
+- [Tkinter](https://github.com/chandravaibhav98/Tkinter-Graphic-User-Interfaces-in-Python)
 
 ### Ops ###
 
 - [DevOps](https://github.com/chandravaibhav98/DevOps-Beginners-to-Advanced-with-Projects)
+- [System Design](https://github.com/chandravaibhav98/System-Design)
 - [Amazon Web Services](https://github.com/chandravaibhav98/AWS)
 - [Google Cloud](https://github.com/chandravaibhav98/GCP)
 - [Azure]()
