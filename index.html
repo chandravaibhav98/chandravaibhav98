@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+<head>
 		<meta charset="UTF-8" />
 		<meta
 			name="viewport"
@@ -18,182 +18,108 @@
 			rel="icon"
 			href="./images/Git-Icon-1788C.png"
 			type="image/x-icon" />
-	</head>
-	<body>
-		<header>
-			<nav class="navbar">
-				<div class="navbar-links">
-					<div class="dropdown">
-						<button class="dropbtn">dev.</button>
-						<div class="dropdown-content">
-							<a
-								class="nav-link"
-								href="https://github.com/users/chandravaibhav98/projects/6"
-								><p>projects</p></a
-							>
-							<a
-								class="nav-link"
-								href="https://leetcode.com/u/user4278GO/"
-								><p>leetCode</p></a
-							>
-							<a
-								class="nav-link"
-								href="https://github.com/chandravaibhav98"
-								><p>gitHub</p></a
-							>
-						</div>
-					</div>
-					<div class="dropdown">
-						<button class="dropbtn">socials.</button>
-						<div class="dropdown-content">
-							<a
-								class="nav-link"
-								href="https://www.linkedin.com/in/chandravaibhav98/"
-								><p>linkedIn</p></a
-							>
-						</div>
-					</div>
-				</div>
-				<div id="filter-buttons">
-					<button
-						type="button"
-						id="filter-all"
-						class="btn btn-outline-info"
-						onclick="filterProjects('all', this)">
-						Filter : All
-					</button>
-					<button
-						type="button"
-						class="btn btn-outline-info"
-						onclick="filterProjects('Python', this)">
-						Python
-					</button>
-					<button
-						type="button"
-						class="btn btn-outline-info"
-						onclick="filterProjects('JavaScript', this)">
-						JavaScript / TypeScript
-					</button>
-					<button
-						type="button"
-						class="btn btn-outline-info"
-						onclick="filterProjects('Java', this)">
-						Java
-					</button>
-					<button
-						type="button"
-						class="btn btn-outline-info"
-						onclick="filterProjects('Ops', this)">
-						Ops
-					</button>
-				</div>
-				<a
-					class="navbar-brand"
-					href="https://github.com/chandravaibhav98"
-					rel="noopener"
-					target="_blank">
-					<p>@chandravaibhav98</p>
-				</a>
-			</nav>
-			<div
-				class="card"
-				data-language="header">
-				<h5>Hi</h5>
-				<hr />
-				<p id="last-updated"></p>
-				<p>I'm Vaibhav Chandra</p>
-				<br />
-				<p>This is a simple Portfolio Page which gets redesigned as per needs every few months</p>
-				<p>Currently done with HTML-JS & Deployed on GitHub Pages</p>
-				<br />
-				<p>
-					You can reach me at <a href="mailto:someone@example.com">vaibhav.chandra1998@gmail.com</a> /
-					<a href="https://discordapp.com/users/844601291647877151">Discord</a> /
-					<a href="https://teams.live.com/l/invite/FEADTcVTu4lB1MOgQM">Teams ( Personal )</a>
-				</p>
+</head>
+<body>
 
-				<br />
-				<div id="toggle-buttons">
-					<hr />
-					Toggle Sections :
-					<button
-						class="btn btn-outline-info"
-						onclick="toggleSection('key-projects', this)">
-						Key Projects
-					</button>
-					<button
-						class="btn btn-outline-info"
-						onclick="toggleSection('projects', this)">
-						Projects
-					</button>
-					<button
-						class="btn btn-outline-info"
-						onclick="toggleSection('technical-skills-list', this)">
-						Technical Skills
-					</button>
-					<button
-						class="btn btn-outline-info"
-						onclick="toggleSection('skills-list', this)">
-						Skills
-					</button>
-				</div>
-			</div>
-			<hr />
-		</header>
+  <!-- Nav -->
+  <nav>
+    <div class="wrapper">
+      <span class="nav-logo">chandravaibhav98.github.io</span>
+      <ul class="nav-links">
+        <li><a href="#featured">Key Projects</a></li>
+        <li><a href="#all-projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <!-- <li><a href="#contact">Contact</a></li> -->
+      </ul>
+    </div>
+  </nav>
 
-		<main>
-			<section>
-				<section>
-					<h3>Key Projects</h3>
-					<br />
-					<div
-						id="key-projects"
-						class="content-section">
-						<!-- Elements will be added from script.js -->
-					</div>
-					<hr />
-				</section>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="wrapper">
+      <div class="hero-content">
+        <div class="hero-badge">Online</div>
+        <h1>Building things<br/>for the <span class="gradient-text">modern web</span></h1>
+        <p>From fast, accessible UIs to scalable backend systems.</p>
+        <div class="hero-cta">
+          <a href="#featured" class="btn btn-primary">View Projects →</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-				<section>
-					<h3>Projects</h3>
-					<br />
-					<div
-						id="projects"
-						class="content-section">
-						<!-- Elements will be added from script.js -->
-					</div>
-					<hr />
-				</section>
-			</section>
+  <!-- Key / Featured Projects -->
+  <section id="featured">
+    <div class="wrapper">
+      <p class="section-label reveal">Featured</p>
+      <h2 class="section-title reveal">Key Projects</h2>
+      <p class="section-subtitle reveal">A selection of work I'm proud of.</p>
 
-			<section>
-				<h3>Technical Skills</h3>
-				<br />
-				<div
-					id="technical-skills-list"
-					class="content-section">
-					<!-- Elements will be added from script.js -->
-				</div>
-				<hr />
-			</section>
+      <div id="key-projects">
+        <!-- Populated by JS or add cards here -->
 
-			<section>
-				<h3>Skills</h3>
-				<br />
-				<div
-					id="skills-list"
-					class="content-section">
-					<!-- Elements will be added from script.js -->
-				</div>
-				<hr />
-			</section>
-		</main>
+      </div>
+    </div>
+  </section>
 
-		<!-- <footer>
-			Footer
-			<hr />
-		</footer> -->
+  <!-- All Projects -->
+  <section id="all-projects">
+    <div class="wrapper">
+      <p class="section-label reveal">All</p>
+      <h2 class="section-title reveal">Other Projects</h2>
+      <p class="section-subtitle reveal">Things I've explored.</p>
 
-		<script src="script.js"></script>
-	</body>
+      <div id="projects">
+        <!-- Populated by JS or add cards here -->
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <div class="wrapper">
+      <p class="section-label reveal">Expertise</p>
+      <h2 class="section-title reveal">Skills</h2>
+      <p class="section-subtitle reveal">What I work with on a daily basis.</p>
+
+      <div class="skills-wrapper">
+        <div class="skills-group reveal">
+          <!-- <h3>Core Skills</h3> -->
+          <ul id="skills-list">
+
+          </ul>
+        </div>
+
+        <div class="skills-group reveal">
+          <!-- <h3>Technical Skills</h3> -->
+          <ul id="technical-skills-list">
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <!-- <section id="contact">
+    <div class="wrapper" style="text-align:center; max-width: 560px; margin: 0 auto;">
+      <p class="section-label reveal">Let's Talk</p>
+      <h2 class="section-title reveal">Get In Touch</h2>
+      <p class="section-subtitle reveal" style="margin: 0 auto 36px;">
+        Open to new roles, collaborations, or just a good conversation about tech.
+      </p>
+      <a href="mailto:you@example.com" class="btn btn-primary reveal">Say Hello →</a>
+    </div>
+  </section> -->
+
+  <footer>
+    <div class="wrapper">
+      <p>· © 2026</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
